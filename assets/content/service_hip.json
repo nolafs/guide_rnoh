@@ -1,0 +1,436 @@
+{
+  "baseurl" : "/assets/images/project/services/hip/",
+  "route"   : "hip",
+  "feature" :
+  {
+    "title": "Hip",
+    "type" : "Clinical Services",
+    "body" : "RNOH are leaders in the treatment and research of all problems associated with the hip in adults. The unit performs a large number revision hip replacements each year for patients from across the UK and is recognised for it's specialist expertise in this area.",
+    "image": "hip",
+    "seq"  : "service_hip_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "body": "Our service includes the diagnosis and treatment of problems arising from hip disorders that started in childhood and the full range of surgery for arthritis.",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Primary Replacement",
+          "body": "A hip replacement is a surgical procedure in which the hip joint is replaced by a prothetic implant. It is generally conducted to relieve arthritis pain or hip fractures."
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "Revision Surgery",
+          "class": "icon-button",
+          "body": "Hip revision surgery involves replacing the artificial hip joint if it has become loose, infected or worn out."
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Hip Reconstruction",
+          "class": "icon-button",
+          "body": "Hip reconstructive surgery is a surgical procedure done to restore your mobility and alleviate hip pain."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Joint Revision",
+          "class": "icon-button",
+          "body": "A revision joint replacement is a surgical procedure to replace a worn out joint replacement."
+        },
+        {
+          "id":"5",
+          "icon": "",
+          "title": "Osteotomy",
+          "class": "icon-button",
+          "body": "An osteotomy is a surgical operation whereby a bone is cut to shorten or lengthen it or to change its alignment."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "body" : "We run a multidisciplinary service including radiologists, arthroplasty nurses, physiotherapist and occupational therapists.",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Professor Tim Briggs",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/professor-tim-w-r-briggs",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "tim_briggs",
+          "email"   : "tim.briggs@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Mr John Skinner",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-john-skinner",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "john_skinner",
+          "email"   : "nicola.saunders@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mr Rob Pollock",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-rob-pollock",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "rob_pollock",
+          "email"   : "jan.blue@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Mr Will Aston",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-will-aston",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "will_aston",
+          "email"   : "Jane.Moody@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Mr Richard Carrington",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-richard-carrington",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "Julie.Rayner@rnoh.nhs.uk",
+          "specialties"    : "Hip & Knee Surgery"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Mr Aresh Hashemi-Nejad",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-aresh-hashemi-nejad",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "aresh_hashemi_nejad",
+          "email"   : "Nejad.Secretary@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        },
+        {
+          "id"      : "7",
+          "name"    : "Professor Alister Hart",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/professor-alister-hart",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "alister_hart",
+          "email"   : "Nicola.Saunders@rnoh.nhs.uk",
+          "specialties"    : "Hip & Knee Surgery"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Mr Jonathan Miles",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-jonathan-miles",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "Natalie.O'Callaghan@rnoh.nhs.uk",
+          "specialties"    : "Hip & Knee Surgery"
+        },
+        {
+          "id"      : "9",
+          "name"    : "Mr Jakub Jagiello",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "jakub_jagiello",
+          "email"   : "Vibhuti.Shah@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Avril Power",
+          "image"   : "avril_power",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Christine Bows",
+          "image"   : "christine_bows",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Clare Cassidy",
+          "image"   : "clare_cassidy",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Ariel Solanzo",
+          "image"   : "ariel_solanzo",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Jennifer Gibbs",
+          "image"   : "jennifer_gibbs",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Manora Fothergill",
+          "image"   : "manora_fothergill",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "7",
+          "name"    : "James Aubrey-Edwards",
+          "image"   : "james_aubrey_edwards",
+          "position": "Administrative Assistant"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Veronica White",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "9",
+          "name"    : "Jane Moody",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "10",
+          "name"    : "Jan Blue",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "11",
+          "name"    : "Nicky Saunders",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "12",
+          "name"    : "Vibhuti Shah",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "13",
+          "name"    : "Julie Rayner",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "14",
+          "name"    : "Natalie O'Callaghan",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        }
+      ]
+    },
+    {
+      "id"  : "3",
+      "hash" : "pathway",
+      "title" : "Your Journey",
+      "body"  : "Your patient pathway starts with a referral by your local GP or District General Hospital and  continues until your treatment is completed.",
+      "image" : "service_journey",
+      "video" : "service_hip_journey",
+      "pathway" : [
+        {
+          "hash" : "admission",
+          "title": "Admission",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-nilbymouth",
+              "header": "Nil by Mouth",
+              "body": "Prior to surgery please do not have any liquids or foods. This may even be 24 hours beforehand."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-whattobring",
+              "header": "What to bring",
+              "body": "Please bring the following items with you: Medication & tablets, toiletries & towels, dressing gown, change of clothes, pyjamas, slippers"
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-appointment",
+              "header": "Date of Admission",
+              "body": "Upon arrival at the admissions lounge we will tell you about the ward and its location. You will be seen by your consultant or a member of his team and have the opportunity to ask any final questions about your surgery."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-injection",
+              "header": "Anaesthetics",
+              "body": "We will also explain and talk to you about the anaesthetics you will have administered."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-consent",
+              "header": "Consent",
+              "body": "Once you are happy you will be ask to sign a consent form. A mark will be drawn on the hip to indicate which side and area is being operated on."
+            }
+          ]
+        },
+        {
+          "hash" : "stay",
+          "title": "During your stay",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-checkin",
+              "header": "Check in Ward",
+              "body": "Please hand in your medication to the nurse and change into a hospital gown, stockings & pants. The nurse will also check your general well being (blood pressure, heart rate, etc)."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-theatre",
+              "header": "Theatre",
+              "body": "The nurse and porter will take you to the theatre where you will meet the anaesthetist who will guide you off to sleep. "
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-surgery",
+              "header": "Surgery",
+              "body": "You then have your surgery."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-recovery",
+              "header": "Recovery",
+              "body": "When you wake up the first person you see is the recovery nurse who is there to make sure you are okay and in no pain. You may go to the high dependency unit overnight for monitoring."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-ward",
+              "header": "Ward",
+              "body": "A member of the team will come and see you after surgery to explain what took place."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-medication",
+              "header": "Medication",
+              "body": "You will be given suitable pain relief to help with early mobilisation. Please take your laxatives to assist your bowel movement and prevent constipation."
+            },
+            {
+              "id": "7",
+              "icon": "bf-journey-physiotherapy",
+              "header": "Physiotherapist",
+              "body": "A physiotherapist will come and see you to get you up and out of bed and advise how much weight you are allowed to put through your new hip. This is important to minimise post operative complications and speed up your recovery."
+            },
+            {
+              "id": "8",
+              "icon": "bf-journey-support",
+              "header": "Occupational Therapist",
+              "body": "You will also be visited by the occupational therapist to advise you about how to manage daily activities such as washing and getting dressed."
+            },
+            {
+              "id": "9",
+              "icon": "bf-journey-paindiary",
+              "header": "Precaution",
+              "body": "We will also remind you of the hip precautions for you to follow for the first 12 weeks after your operation. You are provided with your medication before being discharged home."
+            }
+          ]
+        },
+        {
+          "hash" : "discharge",
+          "title": "Discharge",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-checkup",
+              "header": "Check up",
+              "body": "Two weeks after surgery please ensure you have arranged an appointment with your GP practice or district nurse to have your wound checked and your clips or sutures removed."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-appointment",
+              "header": "Appointment",
+              "body": "After your wound has healed at about 2-3 weeks you will be seen by an outpatients physiotherapist to progress your excise if required."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-advice",
+              "header": "Advice",
+              "body": "You will be required to wear your anti-embolism stockings for 6 weeks after your operation to reduce the threat of blood clots forming in your legs whilst less active than normal."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-injection",
+              "header": "Pain Relief",
+              "body": "We will advise you to gradually reduce your levels of pain relief with guidance from your GP."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-assessment",
+              "header": "Assessment",
+              "body": "Your first appointment after surgery will be in 6-8 weeks time when you will see the consultant or a member of their team to assess your progress."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-xray",
+              "header": "X Ray",
+              "body": "If you require an X Ray please make ensure to arrive 30 minutes before your appointment.  Certain restrictions may be lifted at this point in time."
+            },
+            {
+              "id": "7",
+              "icon": "bf-journey-conclusion",
+              "header": "Conclusion",
+              "body": "Once your treatment has been deemed successful you will be discharged back to your GP."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id"  : "4",
+      "hash" : "testimonials",
+      "title" : "Testimonials",
+      "content" : [
+        {
+          "id"      : "1",
+          "path"    : "testimonials/t_norman",
+          "name"    : "Norman",
+          "age"     : "90",
+          "op"      : "Longest Lasting Hip Replacement done at RNOH in 1948",
+          "quote"   : "“I'm thrilled to think I was part of that initial pioneering work, that other people have benefited from my experience”",
+          "video"   : "service_hip_testimonial_1"
+        },
+        {
+          "id"      : "2",
+          "path"    : "testimonials/t_john",
+          "name"    : "John",
+          "age"     : "65",
+          "op"      : "Hip Replacement",
+          "quote"   : "“My hip was causing me severe pain and restricting my movement. After my hip replacement, I regained my mobility and was pain free. The care I received was excellent.”"
+        }
+
+      ]
+    },
+    {
+      "id"  : "5",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 19:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "phone"   : "+44 20 8954 2300",
+            "appointment"   : "+44 20 8909 5516",
+            "web"     : "https://www.rnoh.nhs.uk",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

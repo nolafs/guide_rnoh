@@ -1,0 +1,21 @@
+<div  id="main" class="wrap __full __center  sectionView  services-main"  async-anchor async-anchor-Event="loaded" async-anchor-delay="1000" async-anchor-spy="true" >
+    <div class="service-nav" >
+        <div class="rich full">
+            <section id="feature">
+                <menu-body content-data="ctrl.content[0]" auto="true">
+                    <div class="section __vertical service-header">
+                        <div class="wrap">
+                            <h2>Specialist Services</h2>
+                        </div>
+                    </div>
+                    <div class="section __vertical  service" >
+                        <div class="wrap">
+                            <menu-services content-data="ctrl.content[0]"></menu-services>
+                        </div>
+                    </div>
+                </menu-body>
+            </section>
+        </div>
+    </div>
+    <div ui-view="sub"  autoScroll="false" class="service-sub" spark-id="service-nav-spark"></div>
+</div>

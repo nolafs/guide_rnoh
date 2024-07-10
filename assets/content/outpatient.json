@@ -1,0 +1,396 @@
+{
+  "feature" :
+  {
+    "title": "Outpatients",
+    "body" : "Outpatients is a part of the patient pathway where you come to the hospital for an appointment with the consultant’s team or other departments.",
+    "image": "Outpatients-Main"
+  },
+  "content" : [
+    {
+      "id":1,
+      "hash": "stanmore",
+      "title": "Stanmore",
+      "subtitle": "Outpatients Department",
+      "body" : "Stanmore is the main Outpatients department where you would go for appointments and treatment. On arrival please report to reception.",
+      "journey" : [
+        {
+          "id" : "1",
+          "icon" : "bf-journey-appointment",
+          "header" : "Appointment",
+          "body" : "On your appointment please bring a list of your medication and the appointment letter. Upon arrival, please report to the reception desk."
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-checkin",
+          "header" : "Check In",
+          "body" : "We will log your time of arrival and tell you which member of the consultant’s team you will see. To keep our records up to date we will ask you general questions (GP’s address, contact details, ethnicity) and if you may need an interpreter. We will ask you to take a seat at the main waiting area or the consultant waiting area."
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-waitingarea",
+          "header" : "Waiting Area",
+          "body" : "Both running times and room numbers are displayed in the main waiting area. If you have a question about anything please approach the duty coordinator, the friends help desk or the receptionist."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-consultation",
+          "header" : "Consultation",
+          "body" : "In your first clinic appointment we discuss the options for treatment, the likely surgeries and the possible outcomes."
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-checkout",
+          "header" : "Checkout",
+          "body" : "Return to the reception desk to arrange for further appointment, hand in your clinical outcome form and leave feedback with friends and family questionnaire."
+        },
+        {
+          "id" : "6",
+          "icon" : "bf-journey-transport",
+          "header" : "Transport",
+          "body" : "Please arrange for transport to your hospital appointment by car or public transport. If you need help to get to the hospital we can provide appropriate transport.For more information on assisted transport download our Patient Transport leaflet."
+        }
+      ],
+      "referral": {
+        "title": "Types of Referral",
+        "content": [
+          {
+            "id":"1",
+            "icon": "bf-outpatients-gp_referrals",
+            "class": "icon-button",
+            "title": "GP Referral",
+            "body": "This is when a doctor would send a patient to the RNOH, for them to be seen by an individual who specialises in the patient's complaint."
+          },
+          {
+            "id":"2",
+            "icon": "bf-outpatients-hospital_referrals",
+            "title": "Hospital Referral",
+            "class": "icon-button",
+            "body": "When a patient is referred from another hospital to the RNOH for further investigation."
+          },
+          {
+            "id":"3",
+            "icon": "bf-outpatients-internal_referrals",
+            "title": "Internal Referral",
+            "class": "icon-button",
+            "body": "When a patient, having had an appointment at the RNOH, is sent to another specialist or department within the RNOH."
+          },
+          {
+            "id":"4",
+            "icon": "bf-outpatients-followup_referrals",
+            "title": "Follow up",
+            "class": "icon-button",
+            "body": "This is a clinic appointment following treatment. It is usually some time after the initial consultation to check on how the patient is progressing."
+          }
+        ]
+      }
+      ,
+      "slider": [
+        {
+          "id"     : "1",
+          "path"   : "outpatient/stanmore",
+          "name"   : "OPD_Stanmore_Reception",
+          "cap"    : "Reception"
+        },
+        {
+          "id"     : "2",
+          "path"   : "outpatient/stanmore",
+          "name"   : "OPD_Stanmore_Main_Waiting_Area",
+          "cap"    : "Main Waiting Area"
+        },
+        {
+          "id"     : "3",
+          "path"   : "outpatient/stanmore",
+          "name"   : "OPD_Stanmore_Infoboard",
+          "cap"    : "Infoboard"
+        },
+        {
+          "id"     : "4",
+          "path"   : "outpatient/stanmore",
+          "name"   : "OPD_Stanmore_Consultant_Waiting_Area",
+          "cap"    : "Consultant Waiting Area"
+        },
+        {
+          "id"     : "5",
+          "path"   : "outpatient/stanmore",
+          "name"   : "OPD_Stanmore_Consultant_Waiting_Area_2",
+          "cap"    : "Consultant Waiting Area"
+        },
+        {
+          "id"     : "6",
+          "path"   : "outpatient/stanmore",
+          "name"   : "OPD_Stanmore_Consultant_Room",
+          "cap"    : "Consultant Room"
+        },
+        {
+          "id"     : "7",
+          "path"   : "outpatient/stanmore",
+          "name"   : "OPD_Stanmore_Patient_Feedback",
+          "cap"    : "Patient Feedback"
+        },
+        {
+          "id"     : "8",
+          "path"   : "outpatient/stanmore",
+          "name"   : "OPD_Stanmore_Checkout",
+          "cap"    : "Checkout"
+        }
+      ],
+      "image": "Outpatients-Stanmore",
+      "location" : [51.6316032,-0.3107297],
+      "info" : {
+        "location": "Stanmore",
+        "times"   : "Monday - Friday <br> 08:00 - 19:00",
+        "address" : "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br>HA7 4LP",
+        "phone"   : "+44 20 8954 2300",
+        "appointment"   : "+44 20 8909 5516",
+        "web"     : "https://www.rnoh.nhs.uk/patients-visitors/coming-rnoh-stanmore",
+        "transport":{
+          "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+          "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+          "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+        }
+      }
+    },
+    {
+      "id":1,
+      "hash": "bolsover",
+      "title": "Bolsover Street",
+      "subtitle": "Outpatients Department",
+      "body" : "Bolsover is the main Outpatients department where you would go for appointments and treatment. On arrival please report to reception.",
+      "journey" : [
+        {
+          "id" : "1",
+          "icon" : "bf-journey-appointment",
+          "header" : "Appointment",
+          "body" : "On your appointment please bring a list of your medication and the appointment letter. Upon arrival, please report to the reception desk."
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-checkin",
+          "header" : "Check In",
+          "body" : "We will log your time of arrival and tell you which member of the consultant’s team you will see. To keep our records up to date we will ask you general questions (GP’s address, contact details, ethnicity) and if you may need an interpreter. We will ask you to take a seat at the main waiting area or the consultant waiting area."
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-waitingarea",
+          "header" : "Waiting Area",
+          "body" : "Both running times and room numbers are displayed in the main waiting area. If you have a question about anything please approach the duty coordinator, the friends help desk or the receptionist."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-consultation",
+          "header" : "Consultation",
+          "body" : "In your first clinic appointment we discuss the options for treatment, the likely surgeries and the possible outcomes."
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-checkout",
+          "header" : "Checkout",
+          "body" : "Return to the reception desk to arrange for further appointment, hand in your clinical outcome form and leave feedback with friends and family questionnaire."
+        },
+        {
+          "id" : "6",
+          "icon" : "bf-journey-transport",
+          "header" : "Transport",
+          "body" : "Please arrange for transport to your hospital appointment by car or public transport. If you need help to get to the hospital we can provide appropriate transport.For more information on assisted transport download our Patient Transport leaflet."
+        }
+      ],
+      "referral": {
+        "title": "Types of Referral",
+       "content": [
+           {
+             "id":"1",
+             "icon": "bf-outpatients-gp_referrals",
+             "class": "icon-button",
+             "title": "GP Referral",
+             "body": "This is when a doctor would send a patient to the RNOH, for them to be seen by an individual who specialises in the patient's complaint."
+           },
+           {
+             "id":"2",
+             "icon": "bf-outpatients-hospital_referrals",
+             "title": "Hospital Referral",
+             "class": "icon-button",
+             "body": "When a patient is referred from another hospital to the RNOH for further investigation."
+           },
+           {
+             "id":"3",
+             "icon": "bf-outpatients-internal_referrals",
+             "title": "Internal Referral",
+             "class": "icon-button",
+             "body": "When a patient, having had an appointment at the RNOH, is sent to another specialist or department within the RNOH."
+           },
+           {
+             "id":"4",
+             "icon": "bf-outpatients-followup_referrals",
+             "title": "Follow up",
+             "class": "icon-button",
+             "body": "This is a clinic appointment following treatment. It is usually some time after the initial consultation to check on how the patient is progressing."
+           }
+        ]
+      },
+      "slider": [
+        {
+          "id"     : "1",
+          "path"   : "outpatient/bolsover",
+          "name"   : "OPD_Bolsover_Reception",
+          "cap"    : "Reception"
+        },
+        {
+          "id"     : "2",
+          "path"   : "outpatient/bolsover",
+          "name"   : "OPD_Bolsover_Main_Waiting_Area",
+          "cap"    : "Main Waiting Area"
+        },
+        {
+          "id"     : "3",
+          "path"   : "outpatient/bolsover",
+          "name"   : "OPD_Bolsover_Consultant_Waiting_Area",
+          "cap"    : "Consultant Waiting Area"
+        },
+        {
+          "id"     : "4",
+          "path"   : "outpatient/bolsover",
+          "name"   : "OPD_Bolsover_Consultant_Waiting_Area_2",
+          "cap"    : "Consultant Waiting Area"
+        },
+        {
+          "id"     : "5",
+          "path"   : "outpatient/bolsover",
+          "name"   : "OPD_Bolsover_Consultant_Room",
+          "cap"    : "Consultant Room"
+        },
+        {
+          "id"     : "6",
+          "path"   : "outpatient/bolsover",
+          "name"   : "OPD_Bolsover_Patient_Feedback",
+          "cap"    : "Patient Feedback"
+        },
+        {
+          "id"     : "7",
+          "path"   : "outpatient/bolsover",
+          "name"   : "OPD_Bolsover_Checkout",
+          "cap"    : "Checkout"
+        }
+      ],
+      "image": "Outpatients-Bolsover",
+      "location" : [51.5230035,-0.142951],
+      "info" : {
+        "location": "Bolsover Street",
+        "times"   : "Monday - Friday <br> 07:45 - 19:45",
+        "address" : "<h4>Royal National Orthopaedic Hospital</h4>45 Bolsover Street<br>Fitzrovia<br>London<br>W1W 5AQ",
+        "textreplace"   : "This number is for general enquiries only. For departments please go to the relevant section on this website or refer to the Contact Us page on the main RNOH website.",
+        "phone"   : "+44 20 7391 4277",
+        "web"     : "https://www.rnoh.nhs.uk/patients-visitors/coming-rnoh-bolsover-street",
+        "transport":{
+          "trans"   : "",
+          "public"  : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-public-transport",
+          "car"     : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-car"
+        }
+      }
+    },
+    {
+      "id":1,
+      "hash": "preassessment",
+      "title": "Pre-Operative Assessment",
+      "subtitle": "Outpatients Department",
+      "body" : "Having been placed on our waiting list for an operation we will assess your health and check if you are fit for surgery. This will take place in our Pre-assessment Clinic which you will be asked to attend before you are given a date for your surgery.",
+      "journey" : [
+        {
+          "id" : "1",
+          "icon" : "bf-journey-whattobring",
+          "header" : "What to bring",
+          "body" : "Please bring your medication or prescription sheet with you. If you are under the care of a doctor please bring a copy of the clinic letter detailing your care / treatment/ investigation. "
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-appointment",
+          "header" : "Appointment",
+          "body" : "Your appointment will usually be 4-6 weeks before your surgery. If you cannot make the appointment please contact us. Failure to do so may result in delay or cancellation of your surgery."
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-safety",
+          "header" : "Safety",
+          "body" : "Please let us know if there is a possibility that you might be pregnant."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-advice",
+          "header" : "Assessment",
+          "body" : "We will carry out tests to check if you are medically fit for your operation or procedure and provide information about your treatment, length of stay and return home after your surgery."
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-injection",
+          "header" : "Tests",
+          "body" : "Blood pressure, height  & weight, heart tracing (ECG), swabs test for MRSA and a urine sample."
+        },
+        {
+          "id" : "6",
+          "icon" : "bf-journey-duration",
+          "header" : "Duration",
+          "body" : "The assessment will take up to an hour so that we can complete all the necessary tests."
+        },
+        {
+          "id" : "7",
+          "icon" : "bf-journey-results",
+          "header" : "Outcome",
+          "body" : "If you are deemed fit after your assessment, we will proceed to your planned admission date. Unless you already have your date, you will be contacted by your consultants scheduler."
+        }
+      ],
+      "slider": [
+        {
+          "id"     : "1",
+          "path"   : "outpatient/preassessment",
+          "name"   : "PRE_OP_Patient_Leaflets",
+          "cap"    : "Patient Leaflets"
+        },
+        {
+          "id"     : "2",
+          "path"   : "outpatient/preassessment",
+          "name"   : "PRE_OP_Explanation_of_Procedure",
+          "cap"    : "Explanation of Procedure"
+        },
+        {
+          "id"     : "3",
+          "path"   : "outpatient/preassessment",
+          "name"   : "PRE_OP_Consent_Form",
+          "cap"    : "Consent Form"
+        },
+        {
+          "id"     : "4",
+          "path"   : "outpatient/preassessment",
+          "name"   : "PRE_OP_Consent_for_Surgery",
+          "cap"    : "Consent For Surgery"
+        },
+        {
+          "id"     : "5",
+          "path"   : "outpatient/preassessment",
+          "name"   : "PRE_OP_Assessment_Weight",
+          "cap"    : "Assessment Weight"
+        },
+        {
+          "id"     : "6",
+          "path"   : "outpatient/preassessment",
+          "name"   : "PRE_OP_Assessment_Height",
+          "cap"    : "Assessment Height"
+        },
+        {
+          "id"     : "7",
+          "path"   : "outpatient/preassessment",
+          "name"   : "PRE_OP_Assessment_Blood_Pressure",
+          "cap"    : "Assessment Blood Pressure"
+        }
+      ],
+      "image": "Outpatients-PreoperativeAssessment",
+      "location" : [51.6316032,-0.3107297],
+      "info" : {
+        "location": "Stanmore",
+        "times"   : "Monday - Friday <br> 08:00 - 17:00",
+        "address" : "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br>HA7 4LP",
+        "preadmissiondepartment"   : "020 8909 5630",
+        "preadmissionscheduler"   : "020 8909 5891",
+        "web"     : "https://www.rnoh.nhs.uk"
+      }
+    }
+  ]
+}

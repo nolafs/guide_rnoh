@@ -1,0 +1,190 @@
+//
+// Icon Font: biff-icons
+//
+
+@font-face {
+  font-family: "biff-icons";
+  src: url("/assets/fonts/biff-icons/biff-icons_bc5b2180d743d0fe5f9e14bd5b9541ea.eot");
+  src: url("/assets/fonts/biff-icons/biff-icons_bc5b2180d743d0fe5f9e14bd5b9541ea.eot?#iefix") format("embedded-opentype"),
+       url("/assets/fonts/biff-icons/biff-icons_bc5b2180d743d0fe5f9e14bd5b9541ea.woff") format("woff"),
+       url("/assets/fonts/biff-icons/biff-icons_bc5b2180d743d0fe5f9e14bd5b9541ea.ttf") format("truetype"),
+       url("/assets/fonts/biff-icons/biff-icons_bc5b2180d743d0fe5f9e14bd5b9541ea.svg#biff-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "biff-icons";
+    src: url("/assets/fonts/biff-icons/biff-icons_bc5b2180d743d0fe5f9e14bd5b9541ea.svg#biff-icons") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.bf-bus:before,
+.bf-car:before,
+.bf-courtesyvehicle:before,
+.bf-journey-activities:before,
+.bf-journey-admission:before,
+.bf-journey-advice:before,
+.bf-journey-appointment:before,
+.bf-journey-assessment:before,
+.bf-journey-casemanager:before,
+.bf-journey-checkin:before,
+.bf-journey-checkout:before,
+.bf-journey-checkup:before,
+.bf-journey-conclusion:before,
+.bf-journey-consent:before,
+.bf-journey-consultation:before,
+.bf-journey-duration:before,
+.bf-journey-education:before,
+.bf-journey-homevisit:before,
+.bf-journey-injection:before,
+.bf-journey-instructions:before,
+.bf-journey-medication:before,
+.bf-journey-meeting:before,
+.bf-journey-metalobjects:before,
+.bf-journey-nilbymouth:before,
+.bf-journey-paindiary:before,
+.bf-journey-physiotherapy:before,
+.bf-journey-plastercast:before,
+.bf-journey-preparation:before,
+.bf-journey-procedures:before,
+.bf-journey-psych:before,
+.bf-journey-recovery:before,
+.bf-journey-reintegration:before,
+.bf-journey-results:before,
+.bf-journey-safety:before,
+.bf-journey-support:before,
+.bf-journey-surgery:before,
+.bf-journey-theatre:before,
+.bf-journey-theprocess:before,
+.bf-journey-transport:before,
+.bf-journey-waitingarea:before,
+.bf-journey-ward:before,
+.bf-journey-whattobring:before,
+.bf-journey-xray:before,
+.bf-nationalrail:before,
+.bf-outpatients-followup_referrals:before,
+.bf-outpatients-gp_referrals:before,
+.bf-outpatients-hospital_referrals:before,
+.bf-outpatients-internal_referrals:before,
+.bf-pdf:before,
+.bf-underground:before {
+  display: inline-block;
+  font-family: "biff-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.bf-bus:before { content: "\f128"; }
+.bf-car:before { content: "\f129"; }
+.bf-courtesyvehicle:before { content: "\f12a"; }
+.bf-journey-activities:before { content: "\f12b"; }
+.bf-journey-admission:before { content: "\f12c"; }
+.bf-journey-advice:before { content: "\f12d"; }
+.bf-journey-appointment:before { content: "\f12e"; }
+.bf-journey-assessment:before { content: "\f12f"; }
+.bf-journey-casemanager:before { content: "\f130"; }
+.bf-journey-checkin:before { content: "\f131"; }
+.bf-journey-checkout:before { content: "\f132"; }
+.bf-journey-checkup:before { content: "\f150"; }
+.bf-journey-conclusion:before { content: "\f133"; }
+.bf-journey-consent:before { content: "\f134"; }
+.bf-journey-consultation:before { content: "\f135"; }
+.bf-journey-duration:before { content: "\f136"; }
+.bf-journey-education:before { content: "\f137"; }
+.bf-journey-homevisit:before { content: "\f138"; }
+.bf-journey-injection:before { content: "\f139"; }
+.bf-journey-instructions:before { content: "\f13a"; }
+.bf-journey-medication:before { content: "\f159"; }
+.bf-journey-meeting:before { content: "\f13b"; }
+.bf-journey-metalobjects:before { content: "\f13c"; }
+.bf-journey-nilbymouth:before { content: "\f151"; }
+.bf-journey-paindiary:before { content: "\f13d"; }
+.bf-journey-physiotherapy:before { content: "\f152"; }
+.bf-journey-plastercast:before { content: "\f153"; }
+.bf-journey-preparation:before { content: "\f13e"; }
+.bf-journey-procedures:before { content: "\f13f"; }
+.bf-journey-psych:before { content: "\f140"; }
+.bf-journey-recovery:before { content: "\f154"; }
+.bf-journey-reintegration:before { content: "\f141"; }
+.bf-journey-results:before { content: "\f142"; }
+.bf-journey-safety:before { content: "\f143"; }
+.bf-journey-support:before { content: "\f144"; }
+.bf-journey-surgery:before { content: "\f155"; }
+.bf-journey-theatre:before { content: "\f156"; }
+.bf-journey-theprocess:before { content: "\f145"; }
+.bf-journey-transport:before { content: "\f146"; }
+.bf-journey-waitingarea:before { content: "\f147"; }
+.bf-journey-ward:before { content: "\f157"; }
+.bf-journey-whattobring:before { content: "\f158"; }
+.bf-journey-xray:before { content: "\f148"; }
+.bf-nationalrail:before { content: "\f149"; }
+.bf-outpatients-followup_referrals:before { content: "\f14a"; }
+.bf-outpatients-gp_referrals:before { content: "\f14b"; }
+.bf-outpatients-hospital_referrals:before { content: "\f14c"; }
+.bf-outpatients-internal_referrals:before { content: "\f14d"; }
+.bf-pdf:before { content: "\f14e"; }
+.bf-underground:before { content: "\f14f"; }
+
+$font-biff-icons-bf-bus: "\f128";
+$font-biff-icons-bf-car: "\f129";
+$font-biff-icons-bf-courtesyvehicle: "\f12a";
+$font-biff-icons-bf-journey-activities: "\f12b";
+$font-biff-icons-bf-journey-admission: "\f12c";
+$font-biff-icons-bf-journey-advice: "\f12d";
+$font-biff-icons-bf-journey-appointment: "\f12e";
+$font-biff-icons-bf-journey-assessment: "\f12f";
+$font-biff-icons-bf-journey-casemanager: "\f130";
+$font-biff-icons-bf-journey-checkin: "\f131";
+$font-biff-icons-bf-journey-checkout: "\f132";
+$font-biff-icons-bf-journey-checkup: "\f150";
+$font-biff-icons-bf-journey-conclusion: "\f133";
+$font-biff-icons-bf-journey-consent: "\f134";
+$font-biff-icons-bf-journey-consultation: "\f135";
+$font-biff-icons-bf-journey-duration: "\f136";
+$font-biff-icons-bf-journey-education: "\f137";
+$font-biff-icons-bf-journey-homevisit: "\f138";
+$font-biff-icons-bf-journey-injection: "\f139";
+$font-biff-icons-bf-journey-instructions: "\f13a";
+$font-biff-icons-bf-journey-medication: "\f159";
+$font-biff-icons-bf-journey-meeting: "\f13b";
+$font-biff-icons-bf-journey-metalobjects: "\f13c";
+$font-biff-icons-bf-journey-nilbymouth: "\f151";
+$font-biff-icons-bf-journey-paindiary: "\f13d";
+$font-biff-icons-bf-journey-physiotherapy: "\f152";
+$font-biff-icons-bf-journey-plastercast: "\f153";
+$font-biff-icons-bf-journey-preparation: "\f13e";
+$font-biff-icons-bf-journey-procedures: "\f13f";
+$font-biff-icons-bf-journey-psych: "\f140";
+$font-biff-icons-bf-journey-recovery: "\f154";
+$font-biff-icons-bf-journey-reintegration: "\f141";
+$font-biff-icons-bf-journey-results: "\f142";
+$font-biff-icons-bf-journey-safety: "\f143";
+$font-biff-icons-bf-journey-support: "\f144";
+$font-biff-icons-bf-journey-surgery: "\f155";
+$font-biff-icons-bf-journey-theatre: "\f156";
+$font-biff-icons-bf-journey-theprocess: "\f145";
+$font-biff-icons-bf-journey-transport: "\f146";
+$font-biff-icons-bf-journey-waitingarea: "\f147";
+$font-biff-icons-bf-journey-ward: "\f157";
+$font-biff-icons-bf-journey-whattobring: "\f158";
+$font-biff-icons-bf-journey-xray: "\f148";
+$font-biff-icons-bf-nationalrail: "\f149";
+$font-biff-icons-bf-outpatients-followup_referrals: "\f14a";
+$font-biff-icons-bf-outpatients-gp_referrals: "\f14b";
+$font-biff-icons-bf-outpatients-hospital_referrals: "\f14c";
+$font-biff-icons-bf-outpatients-internal_referrals: "\f14d";
+$font-biff-icons-bf-pdf: "\f14e";
+$font-biff-icons-bf-underground: "\f14f";

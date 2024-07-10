@@ -1,0 +1,38 @@
+
+  <div class="rich full">
+    <section id="intro">
+      <btnblockfeatureanimated parallax-data="home" header-data="{{ ctrl.content.feature.title }}" header-sub-data="{{ ctrl.content.feature.type +' // '+ ctrl.getContentByHash('gettinghere').info.location  }}" sub-data="{{ctrl.content.route}}" color-data="white_text" parallax-data="1" image-data='{{ ctrl.content.feature.image }}'  scroll="ctrl.scroll" state-data="app.content.services.sub.video"  video-data='{{ ctrl.content.feature.video }}' content-data="ctrl.content.feature.body"  baseurl-data="ctrl.content.baseurl">
+          <submenu route-data="services.sub" sub-data="{{ctrl.content.route}}" menu-data="ctrl.body"></submenu>
+      </btnblockfeatureanimated>
+    </section>
+    <section id="conditions">
+      <blockTab ng-if="ctrl.getContentByHash('conditions')"  title-data="ctrl.getContentByHash('conditions').title" content-data="ctrl.getContentByHash('conditions')" baseurl-data="{{ctrl.content.baseurl }}/conditions/"></blockTab>
+    </section>
+    <section id="team">
+      <block-team ng-if="ctrl.getContentByHash('team')" content-data="ctrl.getContentByHash('team')" baseurl-data="ctrl.content.baseurl"></block-team>
+    </section>
+    <section id="pathway" ng-if="ctrl.getContentByHash('pathway')">
+      <btnblockparallaxvideo header-data="{{ ctrl.getContentByHash('pathway').title }}" color-data="black" parallax-data="{{ ctrl.getContentByHash('pathway').hash }}" image-data="{{ ctrl.getContentByHash('pathway').image }}" state-data="app.content.services.sub.video"  video-data="{{ ctrl.getContentByHash('pathway').video }}" content-data="ctrl.getContentByHash('pathway').body"></btnblockparallaxvideo>
+      <div class="pathways" ng-repeat=" items in ctrl.getContentByHash('pathway').pathway">
+        <blockJourney   id-data="items.hash" title-data="{{items.title }}" journey-data="items.content"></blockJourney>
+      </div>
+    </section>
+    <section id="testimonials"  ng-if="ctrl.getContentByHash('testimonials')">
+      <article>
+        <div class="wrap __full __white __center">
+          <div class="small-12 medium-10 medium-offset-1 columns">
+            <h1>{{ ctrl.getContentByHash('testimonials').title }}</h1>
+            <p ng-if="ctrl.getContentByHash('testimonials').body" class="section_intro_text">{{ ctrl.getContentByHash('testimonials').body }}</p>
+          </div>
+        </div>
+        <div class="pointer"></div>
+          <div class="wrap __full">
+            <block-testimonials content-data="ctrl.getContentByHash('testimonials').content" baseurl-data="ctrl.content.baseurl"></block-testimonials>
+        </div>
+      </article>
+    </section>
+    <section id="gettinghere">
+      <block-getting-here content-data="ctrl.getContentByHash('gettinghere').gettinghere"></block-getting-here>
+    </section>
+  </div>
+

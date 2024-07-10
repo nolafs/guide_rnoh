@@ -1,0 +1,55 @@
+<div class="wrap __full __center __white-text parallax block-feature block-parallax-video" spark-id="{{ parallaxData }}-video-spark">
+  <div ng-if="!isMobile" class="bg-holder"
+       spark-trigger="{{ parallaxData }}-video-spark"
+       spark-scroll-animate="{
+            topTop:{'downAddClass,upRemoveClass': 'pin-pin',ease:Power1.easeInOut},
+            bottomTop:{'downRemoveClass,upAddClass': 'pin-pin',ease:Power1.easeInOut},
+            }"
+    >
+    <div ng-if="hasImage()" ng-show="hasImage()" ng-class="preprocess()" class="__{{ colorData }}"
+
+         spark-trigger="{{ parallaxData }}-video-spark"
+         spark-scroll-animate="{
+            topBottom:{opacity:1,yPercent:0,scale:1},
+            topCenter:{opacity:0.5,yPercent:0,scale:1},
+            bottomTop:{opacity:0.2,yPercent:-10,scale:1.2}
+           }"
+      ></div>
+    </div>
+
+    <div id="video-para" ng-if="!isMobile" class="section __vertical" spark-trigger="{{ parallaxData }}-video-spark" spark-scroll-animate="{
+            topBottom :{opacity:0,yPercent:20},
+            topTop:{opacity:1,yPercent:0,ease:'easeOutQuad'},
+            bottomTop:{opacity:0,yPercent:-20}
+            }">
+        <div class="wrap">
+            <div class="row">
+                <div class="small-12 medium-8 medium-offset-2">
+                    <article>
+                        <h1 ng-bind="headerData"></h1>
+                        <p class="l" ng-if="contentData" ng-bind="contentData"></p>
+                        <p><btnvideo ng-if="videoData" state-data="{{ stateData }}" video-data="{{ videoData }}"></btnvideo></p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div ng-if="isMobile" class="bg-holder">
+    <div ng-if="hasImage()" ng-show="hasImage()" ng-class="preprocess()" class="__{{ colorData }}" style="opacity: 0.3"></div>
+  </div>
+
+    <div ng-if="isMobile" class="section __vertical">
+        <div class="wrap">
+            <div class="row">
+                <div class="small-12 medium-10 medium-offset-1">
+                    <article>
+                        <h1 ng-bind="headerData"></h1>
+                        <p class="l" ng-if="contentData" ng-bind="contentData"></p>
+                        <p><btnvideo ng-if="videoData" state-data="{{ stateData }}" video-data="{{ videoData }}"></btnvideo></p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

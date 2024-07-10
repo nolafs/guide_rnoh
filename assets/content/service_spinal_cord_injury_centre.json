@@ -1,0 +1,418 @@
+{
+  "baseurl" : "/assets/images/project/services/spinal_cord_injury_centre/",
+  "route"   : "spinal_cord_injury_centre",
+  "feature" :
+  {
+    "title": "Spinal Cord Injury Centre",
+    "type": "Specialist Service",
+    "body" : "The Stanmore Spinal Cord Injury Centre is one of only 11 specialist centres in the UK designated to receive and treat spinal cord injured patients. We currently have 24 beds comprising of eight acute beds and 16 rehabilitation beds.",
+    "image": "spinal",
+    "seq"  : "service_spinal_cord_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "body": "Our services are an integral part of the whole process of rehabilitation and re-integration of spinal cord injured patients back into the community.",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Acute care",
+          "body": "Upon first admission to the Spinal Cord Injury Centre you will be under the care of a consultant surgeon. The emphasis is to stabilise your general condition  and any bone damage that may be present and to prevent any complications. You will also begin to meet the members of your care team during this time. "
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "Children's services",
+          "class": "icon-button",
+          "body": "Children and adolescents with a spinal cord injury are treated in an age appropriate environment before the rehabilitation programme commences. Rehabilitation focusses on goals and aims set by the child and family and is supported by a carefully planned timetable which includes: Occupational Therapy, Physiotherapy, swimming and regular lessons in the hospital school as well as time for relaxation, leisure and socialising with family and friends. Planning for discharge will include assessment of the family home to establish its suitability for short and long-term needs, identifying requirements, ensuring provision of equipment and setting up and training a care team if required. You will also be seen regularly in a multidisciplinary follow up clinic at the London Spinal Cord Injury Centre."
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Rehabilitation",
+          "class": "icon-button",
+          "body": "Rehabilitation is a process involving a number of people and takes place in many settings - on the ward, in the gym, during education sessions, out in the community and during recreation and socialisation. The aim of rehabilitation is to promote independence, self reliance and self esteem. The programme will be based on a system of goal planning which will be set by you and your team."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Tissue Viability & Wound Care",
+          "class": "icon-button",
+          "body": "The Tissue Viability team treat patients with skin complications for a variety of reasons, mainly pressure ulcers and surgical wounds. For example, special beds & mattresses, assessment of wounds, guidance on product selection for wounds, skin care and coordinating specialist treatments and surgery if required."
+        },
+        {
+          "id":"5",
+          "icon": "",
+          "title": "Neuro-Urology / Continence",
+          "class": "icon-button",
+          "body": "The Neuro - Urology team comprises of Consultant Urologists, Gastro-enterologist and specialist nurses who will review patients with bladder, bowel and sexual dysfunctions. This involves confirmation of dysfunction through investigations and examination, a plan of management and further evaluation during your inpatient stay with follow up after discharge."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "body" : "Our team consists of multi-professional specialists who work towards patient focused rehabilitation based around patient centred goals.",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Dr Angela Gall",
+          "link"    : "",
+          "position": "Consultant in Rehabilitation",
+          "image"   : "angela_gall",
+          "email"   : "",
+          "specialties"    : "Spinal Cord Injury"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Dr Jan Gawronski",
+          "link"    : "",
+          "position": "Consultant in Rehabilitation",
+          "image"   : "jan_gawronski",
+          "email"   : "",
+          "specialties"    : "Spinal Cord Injury"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mr Manish Desai",
+          "link"    : "",
+          "position": "Consultant in Rehabilitation",
+          "image"   : "manish_desai",
+          "email"   : "",
+          "specialties"    : "Spinal Cord Injury"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Mr Julian Shah",
+          "link"    : "",
+          "position": "Consultant in Neuro-Urology",
+          "image"   : "julian_shah",
+          "email"   : "",
+          "specialties"    : "Neuro-Urology"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Mr Rizwan Hamid",
+          "link"    : "",
+          "position": "Consultant in Neuro-Urology",
+          "image"   : "rizwan_hamid",
+          "email"   : "",
+          "specialties"    : "Neuro-Urology"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Mr Mohamed Helal",
+          "link"    : "",
+          "position": "Senior Trust Great Doctor",
+          "image"   : "mohamed_helal",
+          "email"   : "",
+          "specialties"    : "Neuro-Urology"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Natasha Warner",
+          "image"   : "natasha_warner",
+          "position": "Physician Associate"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Benita Hexter",
+          "image"   : "benita_hexter",
+          "position": "Clinical Specialist & Lead Physiotherapist"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Emma Linley",
+          "image"   : "emma_linley",
+          "position": "Head / Lead Occupational Therapist"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Sue Paddison",
+          "image"   : "sue_paddison",
+          "position": "Clinical Specialist & Lead Physiotherapist"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Elizabeth Bambury",
+          "image"   : "staff_default",
+          "position": "Continence Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Sharon Wood",
+          "image"   : "sharon_wood",
+          "position": "CNS for Neurology"
+        },
+        {
+          "id"      : "7",
+          "name"    : "Pauline Robertson",
+          "image"   : "staff_default",
+          "position": "Spinal Outreach Practitioner"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Michelle Conlon",
+          "image"   : "michelle_conlon",
+          "position": "Reintegration Manager"
+        },
+        {
+          "id"      : "9",
+          "name"    : "George Ikkos",
+          "image"   : "staff_default",
+          "position": "Consultant Liaison Psychiatrist"
+        },
+        {
+          "id"      : "10",
+          "name"    : "Sara McNally",
+          "image"   : "sara_mcnally",
+          "position": "Consultant Liaison Psychiatrist"
+        },
+        {
+          "id"      : "11",
+          "name"    : "Helen Smith",
+          "image"   : "helen_smith",
+          "position": "Consultant Clinical Psychologist"
+        },
+        {
+          "id"      : "12",
+          "name"    : "Carol Smyth",
+          "image"   : "staff_default",
+          "position": "Specialist Counselling Psychologist"
+        },
+        {
+          "id"      : "13",
+          "name"    : "Kathy Coultry-Keane",
+          "image"   : "kathy_coultry_keane",
+          "position": "Matron"
+        },
+        {
+          "id"      : "14",
+          "name"    : "Karen Manlapaz",
+          "image"   : "karen_manlapaz",
+          "position": "Senior Sister"
+        },
+        {
+          "id"      : "15",
+          "name"    : "Rachel Deegan",
+          "image"   : "staff_default",
+          "position": "CNS for Tissue Viability"
+        },
+        {
+          "id"      : "16",
+          "name"    : "Judith Susser",
+          "image"   : "judith_susser",
+          "position": "FARS CNS"
+        },
+        {
+          "id"      : "17",
+          "name"    : "Sarah Knight",
+          "image"   : "sarah_knight",
+          "position": "Clinical Scientist FARS"
+        },
+        {
+          "id"      : "18",
+          "name"    : "Sarah Morgan",
+          "image"   : "sarah_morgan",
+          "position": "Speech & Language Therapist"
+        },
+        {
+          "id"      : "19",
+          "name"    : "Mariam Sheikh",
+          "image"   : "mariam_sheikh",
+          "position": "Lead Dietician"
+        },
+        {
+          "id"      : "20",
+          "name"    : "Natasha Wallace",
+          "image"   : "natasha_wallace",
+          "position": "CNS Community Liaison"
+        },
+        {
+          "id"      : "21",
+          "name"    : "Rosa Castro",
+          "image"   : "rosa_castro",
+          "position": "CNS Community Liaison"
+        },
+        {
+          "id"      : "22",
+          "name"    : "Sian Rodger",
+          "image"   : "sian_roger",
+          "position": "CNS Community Liaison"
+        }
+      ]
+    },
+    {
+      "id"  : "3",
+      "hash" : "pathway",
+      "title" : "Your Journey",
+      "body"  : "Patients are admitted predominantly from the south east of England on an urgent referral basis. We aim to admit all patients as soon as possible following their injury.",
+      "image" : "service_journey",
+      "video" : "service_spinal_cord_journey",
+      "pathway" : [
+        {
+          "hash" : "admission",
+          "title": "Admission",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-consultation",
+              "header": "Referral",
+              "body": "Within 4 hours of your injury you should be referred to the Spinal Cord Injury Centre where staff are available 24/7 to give advice to the acute hospital which is looking after you."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-advice",
+              "header": "Outreach",
+              "body": "A member of the outreach team will visit you within 5 days and explain the process as well as supporting your current hospital team to start your rehabilitation."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-duration",
+              "header": "Waiting List",
+              "body": "You will be added to our waiting list and admitted as soon as possible. Each week we meet and discuss the waiting list and provide you with an update before you are transferred."
+            }
+          ]
+        },
+        {
+          "hash" : "stay",
+          "title": "During your stay",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-assessment",
+              "header": "Assessment",
+              "body": "Once you are admitted you will be fully assessed by our specialist team so we can plan your treatment. This may take a few days to complete."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-advice",
+              "header": "Preplanned Meeting",
+              "body": "You will have a pre planned meeting with your consultant to discuss your injury, expectations and rehabilitation programme. Members of your family can also attend."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-casemanager",
+              "header": "Case Manager ",
+              "body": "A case manager will be allocated to you to assist the rehabilitation process, help coordinate your care, liaise with external agencies and support your discharge back to your community."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-meeting",
+              "header": "Meeting",
+              "body": "Every 2 weeks you will meet the team to ensure your priorities are being met as you progress. Your length of stay and intensity of therapy will also be discussed with you."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-education",
+              "header": "Education",
+              "body": "As part of your rehabilitation you will be learning about your spinal cord injury and how to manage living with the effects of it. Weekly group education and discussion sessions along one to one sessions will also be offered."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-physiotherapy",
+              "header": "Therapy",
+              "body": "Our dedicated therapy team will work closely with you to preserve and improve your physical function and utilise compensatory strategies and equipment to allow for better independence."
+            },
+            {
+              "id": "7",
+              "icon": "bf-journey-activities",
+              "header": "Activities",
+              "body": "Some activities will be ward based some will be gym based activities such as passive range of movement and splinting, hoisting into a wheelchair and sit to stand, FES bike, self feeding with customised cutlery, tilt tabling and standing frame, wheelchair skills, walking and transfer to car. We also offer activities such as swimming, various sporting sessions and the use of the gym."
+            },
+            {
+              "id": "8",
+              "icon": "bf-journey-psych",
+              "header": "Psychologists & Psychiatrists",
+              "body": "Psychologists and Psychiatrists are essential members of the Spinal Cord Injury Centre team. Our goal is to help you reflect on the impact of your injury and find your own way forward."
+            },
+            {
+              "id": "9",
+              "icon": "bf-journey-reintegration",
+              "header": "Social Reintegration",
+              "body": "Social reintegration is another important part of your rehabilitation and our dedicated staff facilitates trips out of the centre and to your community including your home when possible."
+            },
+            {
+              "id": "10",
+              "icon": "bf-journey-consultation",
+              "header": "Case Conference",
+              "body": "Midway through your rehabilitation you will have case conference where your progress is reviewed and plans for your discharge are defined. We will also ensure the transition from the centre to your community is as smooth as possible."
+            }
+          ]
+        },
+        {
+          "hash" : "discharge",
+          "title": "Discharge",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-support",
+              "header": "Support",
+              "body": "You will remain a patient of the centre for as long as you need or want. We will continue to see you after discharge and if required, you may have further admissions to progress your rehabilitation as well as addressing any medical issues."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-homevisit",
+              "header": "Home Visit",
+              "body": "Once you are discharged your case manager and one of our community liaison specialist nurses will visit you to review your progress and answer any questions you may have."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-checkup",
+              "header": "Follow Up",
+              "body": "You will be followed up in our outpatients clinics after discharge."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id"  : "4",
+      "hash" : "testimonials",
+      "title" : "Testimonials",
+      "content" : [
+        {
+          "id"      : "1",
+          "path"    : "testimonials/t_santi",
+          "name"    : "Santi",
+          "age"     : "16",
+          "op"      : "Spinal Injury",
+          "quote"   : "“After my injury, the care I received at RNOH was excellent. The rehabilitation and therapy has really helped me.”"
+        }
+      ]
+    },
+    {
+      "id"  : "5",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 19:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "phone"   : "+44 20 8954 2300",
+            "appointment"   : "+44 20 8909 5516",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/spinal-cord-injury-centre",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

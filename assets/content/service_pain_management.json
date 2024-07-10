@@ -1,0 +1,183 @@
+{
+  "baseurl" : "/assets/images/project/services/pain_management/",
+  "route"   : "pain_management",
+  "feature" :
+  {
+    "title": "Pain Management",
+    "type": "Specialist Service",
+    "body" : "The Stanmore Pain Management Unit offers residential in-patient programmes for adults with long-term chronic neuromuscular and musculoskeletal conditions. Our programmes are focused on implementing cognitive behavioural therapy based self-management strategies to enable patients to achieve their desired goals and improve their quality of life.",
+    "image": "pain_management",
+    "seq"  : "service_pain_management_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "body": "Our programmes offer a mix of individual and group sessions with input from the medical team. Medical specialities include rheumatology, rehabilitation medicine and chronic pain management. ",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Pain Management",
+          "body": ""
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "Rehabilitation",
+          "class": "icon-button",
+          "body": ""
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Follow Up",
+          "class": "icon-button",
+          "body": ""
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Referral",
+          "class": "icon-button",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "body": "We run a multidisciplinary team including psychologists, nurses, occupational therapists and physiotherapists",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Dr Roxaneh Zarnegar",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-roxaneh-zarnegar",
+          "position": "Consultant in Anaesthesia and Pain Management",
+          "image"   : "staff_default",
+          "email"   : "sarah.jason@rnoh.nhs.uk",
+          "specialties"    : "Anaesthesia & Chronic Pain"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Dr Tacson Fernandez",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-tacson-fernandez",
+          "position": "Consultant in Anaesthesia & Pain Management",
+          "image"   : "staff_default",
+          "email"   : "Victoria.Brodie-Smith@rnoh.nhs.uk",
+          "specialties"    : "Acute Pain, Anaesthesia, Chronic Pain & Neuromodulation"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Dr Dan Mihaylov",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-dan-mihaylov",
+          "position": "Consultant in Anaesthesia, Pain Management & Neuromodulation",
+          "image"   : "staff_default",
+          "email"   : "Dan.Mihaylov@rnoh.nhs.uk",
+          "specialties"    : "Anaesthesia & Chronic Pain"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Dr Rebecca Berman",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-rebecca-berman",
+          "position": "Consultant in Pain Management & Chronic Pain",
+          "image"   : "staff_default",
+          "email"   : "sarah.jason@rnoh.nhs.uk",
+          "specialties"    : "Anaesthesia"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Julia Sach",
+          "image"   : "staff_default",
+          "position": "Specialist Nurse"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Michelle Lilley",
+          "image"   : "staff_default",
+          "position": "CNS Chronic Pain"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Faustina Aikins",
+          "image"   : "staff_default",
+          "position": "CNS Chronic Pain"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Sarah Jason",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Victoria Brodie-Smith",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        }
+      ]
+    },
+
+
+    {
+      "id"  : "3",
+      "hash" : "testimonials",
+      "title" : "Testimonials",
+      "content" : [
+        {
+          "id"      : "1",
+          "path"    : "testimonials/t_pat",
+          "name"    : "Pat",
+          "age"     : "71",
+          "op"      : "Neuropathic Pain",
+          "quote"   : "“Chronic pain had affected every aspect of my being for a very long time. As a result of my treatment I can now manage my pain and it no longer dominates my life.”"
+        }
+
+      ]
+    },
+    {
+      "id"  : "4",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 19:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "supportline"   : "020 8909 5305",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/acute-chronic-pain",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        },
+        {
+          "name": "Bolsover Street",
+          "location" : [51.5230035,-0.142951],
+          "info": {
+            "times"   : "Monday - Friday <br> 07:45 - 20:00",
+            "address" : "Royal National Orthopaedic Hospital<br>45-51 Bolsover Street<br>Fitzrovia<br>London<br>W1W 5AQ",
+            "supportline"   : "020 8909 5305",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/acute-chronic-pain",
+            "transport":{
+              "trans"   : "",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

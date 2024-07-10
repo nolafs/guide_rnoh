@@ -1,0 +1,42 @@
+<div class="wrap __full __center __{{ colorData }} parallax" spark-id="{{ parallaxData }}">
+    <div ng-if="!isMobile" ng-show="hasImage()" ng-class="preprocess()" spark-scroll-animate="{
+            topBottom:{opacity:1},
+            topCenter:{opacity:1},
+            topTop:{opacity:0.4,ease:'easeOutQuad'}
+            }" spark-trigger="{{ parallaxData }}"></div>
+    <div ng-if="isMobile"  ng-show="hasImage()" ng-class="preprocess()" style="opacity: 0.3"></div>
+    <div ng-if="!isMobile" class="section __vertical" spark-scroll-animate="{
+           'topBottom' :{opacity:0,y:'50%'},
+            'topTop-250':{opacity:1,y:'0%',ease:'easeOutQuad'}
+            }"
+      >
+        <div class="wrap">
+            <div class="row">
+                <div class="small-12 medium-8 medium-offset-2">
+                    <article>
+                        <h1 ng-bind="headerData"></h1>
+                        <p class="l" ng-bind="contentData"></p>
+                        <link-Button  sref="app.content.{{ sref }}"></link-Button>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-if="isMobile" class="section __vertical" spark-scroll-animate="{
+           'topBottom' :{opacity:0,y:'50%'},
+            'topTop-100':{opacity:1,y:'0%',ease:'easeOutQuad'}
+            }"
+            >
+        <div class="wrap">
+            <div class="row">
+                <div class="small-12 medium-8 medium-offset-2">
+                    <article>
+                        <h1 ng-bind="headerData"></h1>
+                        <p class="l" ng-bind="contentData"></p>
+                        <link-Button  sref="app.content.{{ sref }}"></link-Button>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

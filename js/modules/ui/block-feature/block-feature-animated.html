@@ -1,0 +1,34 @@
+<div class="wrap __full __center parallax block-feature-animated" spark-id="{{ parallaxData }}-feature-spark">
+        <div class="bg-holder">
+            <div ng-show="show" class="bg-cover" ng-if="hasImage()" ng-style="bg" spark-scroll-animate="{
+                topTop:{opacity:1},
+                bottomTop:{opacity:0.1}
+                }" spark-trigger="{{ parallaxData }}-feature-spark"></div>
+        </div>
+        <div class="section __vertical __{{ colorData }}"
+             spark-scroll-animate="{
+            'topTop-10':{y:0,opacity:1,'downEmit':'nav'},
+             'bottomTop+100':{y:-200,opacity:0,ease:'easeOutQuad'}
+            }" spark-trigger="{{ parallaxData }}-feature-spark"
+        >
+            <div class="wrap">
+                <div class="row">
+                    <div class="small-12 medium-6 columns intro">
+                        <article>
+                            <header>
+                                <h1 ng-bind="headerData"></h1>
+                            </header>
+                            <p class="l" ng-bind="contentData"></p>
+                            <btnvideo ng-if="videoData" state-data="{{stateData}}"
+                                      video-data="{{ videoData }}"></btnvideo>
+                        </article>
+                    </div>
+                    <div class="small-12 medium-6 columns">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-menu-holder" ng-show="show" ng-transclude></div>
+        <indicator-scroll active="scroll"></indicator-scroll>
+</div>

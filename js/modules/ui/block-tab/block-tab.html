@@ -1,0 +1,49 @@
+<div id="{{ idData }}-tab" class="block-tab wrap __full __blue __center">
+  <div class="tabs">
+    <article>
+      <div class="row">
+        <div class="small-12 medium-10 columns medium-offset-1">
+          <h2>{{ titleData }}</h2>
+
+          <p ng-if="intro" class="section_intro_text">{{ intro }}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-10 medium-offset-1 columns tab-list" >
+          <ul class="small-block-grid-1 medium-block-grid-{{ content.length }} {{ checkLength() }}">
+            <li ng-repeat="items in content" class="select" id="tab-item-{{ items.id }}" ng-class="active"
+                ng-click="onSelect(items.id)">
+              <div class="icon hide-for-small-only" >
+                <div ng-class="items.class">
+                  <div ng-if="items.icon" class="icon-img">
+                      <i ng-class="items.icon"></i>
+                  </div>
+                  <div ng-if="!items.icon" class="icon-no-img">
+                    <h4 ng-if="!items.icon">{{ items.title }}</h4>
+                  </div>
+                </div>
+                <img src="assets/images/base/empty.png" alt=""/>
+              </div>
+              <h4 ng-if="items.icon">{{ items.title }}</h4>
+              <h4 ng-if="!items.icon" class="icon-no-title">{{ items.title }}</h4>
+              <div class="sub-content-holder-small">
+                <div  id="content-small-{{ items.id }}" class="wrap __white content" ng-show="!media">
+                      <div class="row">
+                       <div class="small-12">{{ items.body }}</div>
+                      </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sub-content-holder wrap __white" ng-show="media">
+        <div class="pointer hide-for-small-only"></div>
+        <div class="content"  ng-repeat="items in content"  id="content-large-{{ items.id }}">
+          <div class="row" ><div class="small-12 medium-10 columns medium-offset-1"> {{ items.body }} </div></div>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>

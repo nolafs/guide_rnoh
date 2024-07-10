@@ -1,0 +1,55 @@
+<div id="{{ idData }}-journey" class="wrap __full __white __center">
+    <div class="row">
+        <div class="small-12 columns journey" spark-id="{{ idData }}-journey-spark">
+            <article>
+                <h3
+                  spark-scroll-animate="{
+                  topBottom:{y:100,scale:0.5,opacity:0},
+                  topCenter:{y:0,opacity:1,scale:1}
+                  }"
+                  spark-trigger="{{ idData }}-journey-spark"
+                  >{{ titleData }}</h3>
+                  <p
+                    spark-scroll-animate="{
+                    topBottom:{y:100,scale:0.5,opacity:0},
+                    topCenter:{y:0,opacity:1,scale:1}
+                    }"
+                    spark-trigger="{{ idData }}-journey-spark"
+                    >{{ textData }}</p>
+                <ul>
+                    <li ng-repeat="items in journeyData" ng-class-odd="'odd'" ng-class-even="'even'">
+                        <div class="row">
+                          <div class="m-counter small-12" ng-show="!show">{{ items.id }}</div>
+                          <div ng-show="show" class="line show-for-medium-up" ng-if="!$last" spark-id="{{ idData }}-{{ items.id }}-item-spark"><div spark-scroll-animate="{
+                            topCenter:{y:-80,scaleY:0,opacity:0},
+                            bottomCenter:{y:0,scaleY:1,opacity:1}
+                            }" spark-trigger="{{ idData }}-{{ items.id }}-item-spark"></div></div>
+                            <div ng-if="$odd" ng-show="show" class="medium-6 columns">
+                              <div class="counter" spark-scroll-animate="{
+                                topBottom:{y:100,scale:0.5,opacity:0},
+                                topCenter:{y:0,opacity:1,scale:1}
+                                }">{{ items.id }}</div>
+                            </div>
+                            <div class="content small-12 medium-6 columns">
+                                    <div ng-if="$odd" class="medium-2 columns show-for-medium-up"></div>
+                                    <div class="small-12 medium-10 columns" spark-scroll-animate="{
+                                      topBottom:{y:100,opacity:0},
+                                      topCenter:{y:0,opacity:1}
+                                      }">
+                                        <h4><i ng-if="$odd" ng-class="items.icon"></i>{{ items.header }}<i ng-if="$even" ng-class="items.icon"></i></h4>
+                                        <p>{{ items.body }}</p>
+                                    </div>
+                              <div ng-if="$even" ng-show="show" class="small-collapse medium-2 columns end"><div class="counter" spark-scroll-animate="{
+                                topBottom:{y:100,scale:0.5,opacity:0},
+                                topCenter:{y:0,opacity:1,scale:1}
+                                }">{{ items.id }}</div>
+                            </div>
+                            <div ng-if="$even" class="medium-6 columns end show-for-medium-up"></div>
+                        </div>
+                    </li>
+                </ul>
+
+            </article>
+        </div>
+    </div>
+</div>

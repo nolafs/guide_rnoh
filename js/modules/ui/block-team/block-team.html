@@ -1,0 +1,62 @@
+<div class="block-team" spark-id="team-spark">
+        <div class="team-block" >
+            <article>
+                <div class="wrap __full __white __center">
+                    <div class="row">
+                        <div class="small-12 medium-10 medium-offset-1 columns">
+                            <h1>{{ title }}</h1>
+                            <p ng-if="body" class="section_intro_text">{{ body }}</p>
+                        </div>
+                        <div class="small-12 columns">
+                        <div class="consultants">
+                            <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-5 text-center">
+                                <li ng-repeat="items in consultant">
+                                    <div class="img-round">
+                                        <div class="img-block">
+                                            <a ng-if="items.link" class="img-img" href="{{ items.link }}" target="_blank">
+                                              <img ng-src="{{ baseurlData }}team/{{ items.image }}.jpg" alt="{{ items.name }}"/>
+                                            </a>
+                                            <div ng-if="!items.link" class="img-img">
+                                                <img ng-src="{{ baseurlData }}team/{{ items.image }}.jpg" alt="{{ items.name }}"/>
+                                            </div>
+                                        </div>
+                                        <img src="assets/images/base/empty.png" alt=""/>
+                                    </div>
+                                    <a ng-if="items.link" href="{{ items.link }}" target="_blank"><h4>{{ items.name }}</h4></a>
+                                    <h4 ng-if="!items.link">{{ items.name }}</h4>
+                                    <sub>{{ items.position }}</sub>
+                                    <p ng-if="items.specialties"><h5 ng-if="items.specialties">Specialties:</h5><span>{{ items.specialties }}</span></p>
+                                    <p ng-if="items.email"><a href="mailto:{{ items.email }}" class="btn">Email</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="revealbutton" ng-if="staff">
+                        <div class="button-plus" ng-click="onToggle()"><i class="fa"></i></div>
+                </div>
+                <div class="staff wrap __full  __center closed" ng-show="!collapsed" ng-if="staff">
+                    <div class="row">
+                        <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-6 text-center">
+                            <li ng-repeat="items in staff">
+                                <div class="img-round">
+                                    <div class="img-block">
+                                        <div class="img-img">
+                                            <img ng-src="{{ baseurlData }}team/{{ items.image }}.jpg" alt="{{ items.name }}"/>
+                                        </div>
+                                    </div>
+                                    <img src="assets/images/base/empty.png" alt=""/>
+                                </div>
+                                <h4>{{ items.name }}</h4>
+                                <sub>{{ items.position }}</sub>
+                                <p>{{ items.body }}</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+
+            </article>
+
+        </div>
+</div>

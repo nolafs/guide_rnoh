@@ -1,0 +1,44 @@
+<div class="block-testimonials">
+    <div class="corner"></div>
+        <div class="small-12 columns slider">
+            <slick infinite="true" dots="true" speed="1000" current-index="index" on-before-change="onBeforeChange()" on-after-change="onAfterChange()" autoplay="false" slides-to-show=1 slides-to-scroll=1 init-onload=true data="contentData" class="slider  multiple-items" >
+                <div ng-repeat="items in contentData">
+                    <div class="slide small-12 columns odd" ng-if="$odd">
+                        <div class="small-6 columns img">
+                            <img class="img-hidden" ng-src="{{ getImage(items.path) }}" alt="{{ items.name }}">
+                            <div class="bg-full" ng-style="{'background-image':'url({{getImage(items.path)}})'}"></div>
+                        </div>
+                        <div class="info small-6 columns">
+                            <ul>
+                                <li><h3>{{ items.name }}</h3></li>
+                                <li>Age:{{ items.age }}</li>
+                                <li>{{ items.op }}</li>
+                            </ul>
+                            <div class="block-quote">
+                                <blockquote>{{ items.quote }}</blockquote>
+                            </div>
+                            <btnvideo video-data="{{ items.video }}" state-data="app.content.services.sub.video"></btnvideo>
+                        </div>
+                    </div>
+                    <div class=" slide small-12 columns even" ng-if="$even">
+                        <div class="img small-6 columns">
+                          <img class="img-hidden" ng-src="{{ getImage(items.path) }}" alt="{{ items.name }}">
+                          <div class="bg-full" ng-style="{'background-image':'url({{getImage(items.path)}})'}"></div>
+                        </div>
+                        <div class="info small-6 columns">
+                            <ul>
+                                <li><h3>{{ items.name }}</h3></li>
+                                <li>Age:{{ items.age }}</li>
+                                <li>{{ items.op }}</li>
+                            </ul>
+                            <div class="block-quote">
+                                <blockquote>{{ items.quote }}</blockquote>
+                            </div>
+                            <btnvideo video-data="{{ items.video }}" state-data="app.content.services.sub.video"></btnvideo>
+                        </div>
+
+                    </div>
+                </div>
+            </slick>
+        </div>
+</div>

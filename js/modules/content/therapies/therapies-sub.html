@@ -1,0 +1,20 @@
+<div class="main-content">
+  <section id="intro">
+    <btnblockparallaxvideo header-data="{{ ctrl.sub.title }}" color-data="black" parallax-data="{{ ctrl.sub.hash }}" image-data="{{ ctrl.sub.image }}" state-data="app.content.therapies.sub.video" video-data="{{ ctrl.hash }}_{{ ctrl.sub.hash }}" content-data="ctrl.sub.body"  ></btnblockparallaxvideo>
+    <blockTab ng-if="ctrl.sub.referral" id-data="ctrl.sub.hash" title-data="ctrl.sub.referral.title" content-data="ctrl.sub.referral"></blockTab>
+    <block-team ng-if="ctrl.sub.team" content-data="ctrl.sub.team" baseurl-data="ctrl.sub.baseurl"></block-team>
+    <blockJourney ng-if="ctrl.sub.journey" id-data="ctrl.sub.hash" title-data="Your Journey" text-data="{{ ctrl.sub.journeytext }}" journey-data="ctrl.sub.journey"></blockJourney>
+    <div ng-if="ctrl.content.slim">
+      <div ng-if="ctrl.sub.slider" class="wrap __white">
+        <div class="slider-holder row">
+          <div class="small-12 columns">
+            <slick infinite="true" dots="true"  on-after-change="onInit()" autoplay="false" slides-to-show=1 slides-to-scroll=1 init-onload=true data="ctrl.sub.slider" class="slider  multiple-items" >
+              <div ng-repeat="items in ctrl.sub.slider"><div class="slide"><img ng-src="/assets/images/media/slider/{{ items.path }}/{{ items.id }}.jpg" alt=""/><div class="caption">{{ items.cap }}</div></div></div>
+            </slick>
+          </div>
+        </div>
+      </div>
+    </div>
+    <block-getting-here content-data="ctrl.sub.gettinghere"></block-getting-here>
+  </section>
+</div>

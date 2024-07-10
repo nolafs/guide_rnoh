@@ -1,0 +1,10 @@
+<div id="diagnostics" async-anchor async-anchor-Event="loaded" async-anchor-delay="500" async-anchor-spy="false">
+    <div class="rich full">
+        <section id="feature">
+            <btnblockfeature header-data="{{ ctrl.content.feature.title }}" color-data="black" parallax-data="1" image-data='{{ ctrl.content.feature.image }}' scroll="ctrl.scroll" content-data="ctrl.content.feature.body">
+                <submenu route-data="diagnostics" menu-data="ctrl.getSubs()" type="sub"></submenu>
+            </btnblockfeature>
+        </section>
+        <div ui-view="sub"  autoScroll="false"></div>
+    </div>
+</div>

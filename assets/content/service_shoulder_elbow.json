@@ -1,0 +1,374 @@
+{
+  "baseurl" : "/assets/images/project/services/shoulder_upper_limb/",
+  "route"   : "shoulder_elbow",
+  "feature" :
+  {
+    "title": "Shoulder & Elbow",
+    "type" : "Clinical Services",
+    "body" : "The Stanmore Shoulder & Elbow Unit is lead by highly experienced orthopaedic surgeons with a international reputation, each with specialised expertise in the management of a wide range of shoulder and elbow problems including sports injuries, arthritis and deformity.",
+    "image": "sul",
+    "seq"  : "service_shoulder_upper_limb_intro"
+  },
+  "content" :
+    [
+      {
+        "id": "1",
+        "hash":"conditions",
+        "title": "Range of Services",
+        "body": "Our service is focused on the diagnosis, treatment and research of injuries and musculoskeletal conditions affecting the shoulder and elbow both in children and adults. ",
+        "content": [
+          {
+            "id":"1",
+            "icon": "",
+            "class": "icon-button",
+            "title": "Shoulder & Elbow Arthroplasty",
+            "body": "Our specialist consultants perform both complex and revision surgery for shoulder and elbow replacements. These are carried out for a number of reasons, loosening of current prosthesis, progressive wear, rotator cuff failure or infection."
+          },
+          {
+            "id":"2",
+            "icon": "",
+            "title": "Shoulder & Elbow Deformity",
+            "class": "icon-button",
+            "body": "Complex reconstruction may be required for shoulder or elbow conditions due to: failure for bone to unite or has united improperly causing chronic pain, limited mobility or even disability."
+          },
+          {
+            "id":"3",
+            "icon": "",
+            "title": "Rotator Cuff Failure",
+            "class": "icon-button",
+            "body": "Complex reconstruction for instability are surgical procedures to improve stability within the joint to help restore function and prevent further instability.  Procedures can also include muscle transfers for advanced rotator cuff failure to help restore stability and function."
+          },
+          {
+            "id":"4",
+            "icon": "",
+            "title": "Shoulder Instability",
+            "class": "icon-button",
+            "body": "Complex shoulder instability can be a chronic condition that causes frequent dislocations or subluxations of the joint. Diagnostic tests such as a scan or diagnostic arthroscopy may be done to provide a diagnosis. Your surgeon may advise that shoulder stabilisation surgery is required or our specialist physiotherapy programme to treat the condition."
+          },
+          {
+            "id":"5",
+            "icon": "",
+            "title": "Neuromuscular Conditions",
+            "class": "icon-button",
+            "body": "Neuromuscular conditions such as Facioscapulohumeral Dystrophy (FSHD), Obstetric Brachial Plexus Palsy(OBPP), Thalidomide Embryopathy may require complex surgery to correct certain defects to help restore function and/or reduce pain symptoms."
+          }
+        ]
+      },
+      {
+          "id": "2",
+          "hash":"team",
+          "title" : "The Team",
+          "body" : "We run a multidisciplinary team including rheumatologists, sports doctors, neurophysiologists, orthotists, clinical nurse specialists and physiotherapists.",
+          "consultant": [
+            {
+              "id"      : "1",
+              "name"    : "Mr Mark Falworth",
+              "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-mark-falworth",
+              "position": "Consultant Orthopaedic Surgeon",
+              "image"   : "staff_default",
+              "email"   : "Wendy.Ingram@rnoh.nhs.uk",
+              "specialties"    : "Shoulder & Elbow Surgery"
+            },
+            {
+              "id"      : "2",
+              "name"    : "Ms Deborah Higgs",
+              "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/ms-deborah-higgs",
+              "position": "Consultant Orthopaedic Surgeon",
+              "image"   : "staff_default",
+              "email"   : "Patricia.NoonanSmith@rnoh.nhs.uk",
+              "specialties"    : "Shoulder & Elbow Surgery"
+            },
+            {
+              "id"      : "4",
+              "name"    : "Mr Addie Majed",
+              "link"    : "",
+              "position": "Consultant Orthopaedic Surgeon",
+              "image"   : "staff_default",
+              "email"   : "karenza.Connolly@rnoh.nhs.uk",
+              "specialties"    : "Shoulder & Elbow Surgery"
+            }
+          ],
+          "staff" : [
+            {
+              "id"      : "1",
+              "name"    : "Amanda Denton",
+              "image"   : "amanda_denton",
+              "position": "Clinical Nurse Specialist"
+            },
+            {
+              "id"      : "2",
+              "name"    : "Anju Jaggi",
+              "image"   : "anju_jaggi",
+              "position": "Consultant Physiotherapist"
+            },
+            {
+              "id"      : "3",
+              "name"    : "Tania Douglas",
+              "image"   : "tania_douglas",
+              "position": "Clinical Physiotherapist Specialist"
+            },
+            {
+              "id"      : "4",
+              "name"    : "Christina Liasides",
+              "image"   : "christina_liasides",
+              "position": "Senior Physiotherapist"
+            },
+            {
+              "id"      : "5",
+              "name"    : "Ben Hughes",
+              "image"   : "ben_hughes",
+              "position": "Senior Physiotherapist"
+            },
+            {
+              "id"      : "6",
+              "name"    : "Hazel Brown",
+              "image"   : "hazel_brown",
+              "position": "Senior Physiotherapist"
+            },
+            {
+              "id"      : "7",
+              "name"    : "Jeelna Ruparelia",
+              "image"   : "staff_default",
+              "position": "Senior Physiotherapist"
+            },
+            {
+              "id"      : "8",
+              "name"    : "Elaine Cobb",
+              "image"   : "elaine_cobb",
+              "position": "Senior Occupational Therapist"
+            },
+            {
+              "id"      : "9",
+              "name"    : "Lola Norman",
+              "image"   : "staff_default",
+              "position": "Senior Occupational Therapist"
+            },
+            {
+              "id"      : "10",
+              "name"    : "Jenny Sadikot",
+              "image"   : "staff_default",
+              "position": "Occupational Therapist"
+            },
+            {
+              "id"      : "11",
+              "name"    : "Frances McLoughlin",
+              "image"   : "frances_mcloughlin",
+              "position": "Medical Secretary"
+            },
+            {
+              "id"      : "12",
+              "name"    : "Wendy Ingram",
+              "image"   : "wendy_ingram",
+              "position": "Medical Secretary"
+            },
+            {
+              "id"      : "13",
+              "name"    : "Stephanie Hyman",
+              "image"   : "stephanie_hyman",
+              "position": "Medical Secretary"
+            },
+            {
+              "id"      : "14",
+              "name"    : "Patricia Noonan Smith",
+              "image"   : "patricia_noonan_smith",
+              "position": "Medical Secretary"
+            },
+            {
+              "id"      : "15",
+              "name"    : "Karenza Connolly",
+              "image"   : "karenza_connolly",
+              "position": "Medical Secretary"
+            },
+            {
+              "id"      : "16",
+              "name"    : "Angie Doyle",
+              "image"   : "angie_doyle",
+              "position": "Medical Secretary"
+            }
+          ]
+        },
+      {
+        "id"  : "3",
+        "hash" : "pathway",
+        "title" : "Your Journey",
+        "body"  : "Your patient pathway starts with a referral by your local GP or District General Hospital and  continues until your treatment is completed.",
+        "image" : "service_journey",
+        "video" : "service_shoulder_elbow_journey",
+        "pathway" : [
+          {
+            "hash" : "admission",
+            "title": "Admission",
+            "content": [
+              {
+                "id": "1",
+                "icon": "bf-journey-nilbymouth",
+                "header": "Nil by Mouth",
+                "body": "Prior to surgery please do not have any liquids or foods. This may even be 24 hours beforehand."
+              },
+              {
+                "id": "2",
+                "icon": "bf-journey-whattobring",
+                "header": "What to bring",
+                "body": "Please bring the following items with you: Medication & tablets, toiletries & towels, dressing gown, change of clothes, pyjamas, slippers"
+              },
+              {
+                "id": "3",
+                "icon": "bf-journey-appointment",
+                "header": "Date of Admission ",
+                "body": "Upon arrival at the admissions lounge we will tell you about the ward and its location. You will be seen by your consultant or a member of his team and have the opportunity to ask any final questions about your surgery."
+              },
+              {
+                "id": "4",
+                "icon": "bf-journey-injection",
+                "header": "Anaesthetics",
+                "body": "We will also explain and talk to you about the anaesthetics you will have administered."
+              },
+              {
+                "id": "5",
+                "icon": "bf-journey-consent",
+                "header": "Consent",
+                "body": "Once you are happy you will be ask to sign a consent form. A mark will be drawn on the arm to indicate which side and area is being operated on."
+              }
+            ]
+          },
+          {
+            "hash" : "stay",
+            "title": "During your stay",
+            "content": [
+              {
+                "id": "1",
+                "icon": "bf-journey-checkin",
+                "header": "Check in Ward",
+                "body": "Please hand in your medication to the nurse and change into a hospital gown, stockings & pants. The nurse will also check your general well being (blood pressure, heart rate, etc)."
+              },
+              {
+                "id": "2",
+                "icon": "bf-journey-theatre",
+                "header": "Theatre",
+                "body": "The nurse and porter will take you to the theatre where you will meet the anaesthetist who will guide you off to sleep and if necessary administer a nerve block to help reduce post operative pain."
+              },
+              {
+                "id": "3",
+                "icon": "bf-journey-surgery",
+                "header": "Surgery",
+                "body": "You then have your surgery."
+              },
+              {
+                "id": "4",
+                "icon": "bf-journey-recovery",
+                "header": "Recovery",
+                "body": "When you wake up the first person you see is the recovery nurse who is there to make sure you are okay and in no pain. You will then be portered back to the ward."
+              },
+              {
+                "id": "5",
+                "icon": "bf-journey-ward",
+                "header": "Ward",
+                "body": "A member of the team will come and see you after surgery to explain what took place."
+              },
+              {
+                "id": "6",
+                "icon": "bf-journey-physiotherapy",
+                "header": "Physiotherapist",
+                "body": "A physiotherapist will come and see you to go through your post operative precautions and exercises. This is important to minimise complications and speed up your recovery."
+              },
+              {
+                "id": "7",
+                "icon": "bf-journey-support",
+                "header": "Occupational Therapist",
+                "body": "You will also be visited by the occupational therapist to teach you about how to cope with your arm in a sling, including how to get washed and dressed."
+              },
+              {
+                "id": "8",
+                "icon": "bf-journey-advice",
+                "header": "Advice",
+                "body": "We will advise you on how to manage daily actives, return to work and sporting & leisure activities. You are provided with your medication before being discharged home."
+              }
+            ]
+          },
+          {
+            "hash" : "discharge",
+            "title": "Discharge",
+            "content": [
+              {
+                "id": "1",
+                "icon": "bf-journey-checkup",
+                "header": "Check up",
+                "body": "Once you have returned home please ensure you have arranged a wound check appointment with your GP practice nurse within 2 weeks of your surgery."
+              },
+              {
+                "id": "2",
+                "icon": "bf-journey-appointment",
+                "header": "Appointment",
+                "body": "Around 6 weeks after your operation you will have a physiotherapy appointment either locally or at the RNOH."
+              },
+              {
+                "id": "3",
+                "icon": "bf-journey-assessment",
+                "header": "Assessment",
+                "body": "Your first appointment after surgery will be in 6 weeks time when you will see the consultant or a member of their team to assess your progress."
+              },
+              {
+                "id": "4",
+                "icon": "bf-journey-xray",
+                "header": "X Ray",
+                "body": "If you require an X Ray please make ensure to arrive 15 minutes before your appointment.  Certain restrictions may be lifted at this point in time."
+              },
+              {
+                "id": "5",
+                "icon": "bf-journey-checkout",
+                "header": "Follow Up",
+                "body": "You will be followed up again 3 month after surgery, 6 month and yearly."
+              },
+              {
+                "id": "6",
+                "icon": "bf-journey-conclusion",
+                "header": "Conclusion",
+                "body": "Once your treatment has been deemed successful you will be discharged back to your GP."
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "id"  : "4",
+        "hash" : "testimonials",
+        "title" : "Testimonials",
+        "body"  : "Everything we do is informed by patient feedback. Indeed, more than 95% of our patients would be likely or extremely likely to recommend us to their friends and family for a similar treatment.",
+        "content" : [
+            {
+              "id"      : "1",
+              "path"    : "testimonials/t_acea",
+              "name"    : "Acea",
+              "age"     : "20",
+              "op"      : "Dystrophy",
+              "quote"   : "“Thanks to the specialist treatment I have received at the RNOH, I was able to continue my passion for motor sports and achieve things I thought were no longer possible.”"
+            }
+          ]
+      },
+      {
+        "id"  : "5",
+        "hash" : "gettinghere",
+        "title" : "Getting Here",
+        "gettinghere": [
+          {
+            "name": "Stanmore",
+            "location": [51.6316032,-0.3107297],
+            "info": {
+              "times": "Monday - Friday <br> 08:00 - 17:00",
+              "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+              "supportline"   : "020 8385 3024",
+              "secretarialteam"   : "020 8909 5727",
+              "web"     : "https://www.rnoh.nhs.uk/clinical-services/joint-reconstruction-shoulder-upper-limb",
+              "transport":{
+                "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+                "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+                "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+              }
+            }
+          }
+        ]
+      }
+
+    ]
+}

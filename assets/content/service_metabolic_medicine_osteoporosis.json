@@ -1,0 +1,145 @@
+{
+  "baseurl" : "/assets/images/project/services/metabolic_medicine_osteoporosis/",
+  "route"   : "metabolic_medicine_osteoporosis",
+  "feature" :
+  {
+    "title": "Metabolic Medicine & Osteoporosis",
+    "type": "Specialist Service",
+    "body" : "RNOH has one of the largest services in the world for the research and treatment of osteoporosis for men and woman as well as adolescents and adults with inherited metabolic diseases. The Unit provides specialist medical, dietetic and nursing advice to support treatment and education of patients.",
+    "image": "metabolic_medicine_osteoporosis",
+    "seq"  : "service_mmo_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Osteoporosis",
+          "body": "Osteoporosis occurs when bones lose an excessive amount of their protein and mineral content, in particular calcium decreasing bone mass and bone strength over time. As a result bones become fragile and break easily. It is often called the “silent” disease, because bone loss occurs without symptoms."
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "Metabolic Bone Disease",
+          "class": "icon-button",
+          "body": "Metabolic bone disease is an umbrella term referring to abnormalities of bones caused by a broad spectrum of disorders. Most commonly these disorders are caused by abnormalities of minerals such as calcium, phosphorus, magnesium or vitamin D leading to dramatic clinical disorders that are commonly reversible once the underlying defect has been treated."
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Treatment & Rehabilitation ",
+          "class": "icon-button",
+          "body": "Therapy teams can prescribe appropriate exercises which are often a used to enhance and maintain good bone strength. Rehabilitation can also be geared towards helping manage some of the pain that can be associated with metabolic disorders as well as improving function."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Intravenous Therapies",
+          "class": "icon-button",
+          "body": "Bone Densitometry Bone densitometry is a test like an X-ray that quickly and accurately measures the density of bone. It is used primarily to detect osteopenia or osteoporosis, diseases in which the bone's mineral and density are low and the risk of fractures is increased."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Dr Richard Keen",
+          "position": "Consultant Rheumatologist",
+          "image"   : "staff_default",
+          "email"   : "",
+          "telephone"   : "",
+          "specialties"    : "Rheumatology, Osteoporosis & Metabolic Medicine"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Christina Peter",
+          "image"   : "staff_default",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Tara Khan",
+          "image"   : "staff_default",
+          "position": "Physicians Associate"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mirjana Dojcinovska",
+          "image"   : "staff_default",
+          "position": "Associate Specialist"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Jo Thomas",
+          "image"   : "staff_default",
+          "position": "Infusion Scheduler"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Janice Cohen",
+          "image"   : "staff_default",
+          "position": "Secretarial Team"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Vishna Shah",
+          "image"   : "staff_default",
+          "position": "DXA Manager"
+        }
+      ]
+    },
+
+    {
+      "id"  : "3",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 17:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "supportline"   : "020 8909 5461",
+            "secretarialteam"   : "020 8909 5314",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/rehabilitation-and-therapy/metabolic-medicine-osteoporosis",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        },
+        {
+          "name": "Bolsover Street",
+          "location" : [51.5230035,-0.142951],
+          "info": {
+            "times"   : "Monday - Friday <br> 07:45 - 20:00",
+            "address" : "Royal National Orthopaedic Hospital<br>45-51 Bolsover Street<br>Fitzrovia<br>London<br>W1W 5AQ",
+            "supportline"   : "020 8909 5461",
+            "secretarialteam"   : "020 8909 5314",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/rehabilitation-and-therapy/metabolic-medicine-osteoporosis",
+            "transport":{
+              "trans"   : "",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

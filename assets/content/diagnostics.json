@@ -1,0 +1,758 @@
+{
+  "feature" :
+  {
+    "title": "Diagnostics",
+    "body" : "Diagnostics describes a procedure or test which is performed to find out what is causing your health problems. These procedures do not treat or cure you, but they provide valuable information to help diagnose what treatment you may need.",
+    "image": "Diagnostics-Main"
+  },
+  "content" : [
+    {
+      "id":1,
+      "hash": "ct",
+      "title": "CT",
+      "body" : "CT (Computed Tomography) is a diagnostic process that uses X-rays to produce high quality cross-sectional images through the body.  CT can be used to image any part of the body and provides high quality information on bone and some soft tissue structures.",
+      "journey" : [
+        {
+          "id" : "1",
+          "icon" : "bf-journey-appointment",
+          "header" : "Your Appointment",
+          "body" : "When arriving at the Imaging / Scanning department on your appointment day please report to the reception desk. If you cannot make the appointment please contact us so we can arrange for an alternative date."
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-safety",
+          "header" : "Safety",
+          "body" : "The radiographer will explain the procedure before the scan begins. Before you have the CT scan you may have to remove any metal objects such as jewellery, hair clips, wallet etc. from your body as this can affect the quality of the image. "
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-injection",
+          "header" : "Injection",
+          "body" : "You may be injected with a small dose of a contrast agent. This is a liquid containing a dye that can help improve the accuracy of the scan."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-preparation",
+          "header" : "Preparation",
+          "body" : "The radiographer will have you in full view at all times and you will be able to talk throughout the scan via a two-way microphone built into the scanner."
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-procedures",
+          "header" : "The Procedure",
+          "body" : "You will go through the scanner twice, the first time to get a general picture and the second is to obtain a detailed scan. Scanning only lasts about 20 seconds during which time we may ask you to hold your breath and lie still so the picture doesn't appear blurry."
+        },
+        {
+          "id" : "6",
+          "icon" : "bf-journey-conclusion",
+          "header" : "Conclusion",
+          "body" : "A member of the team will check that you are okay and help you to get up. You can go back to your normal activities straight away."
+        },
+        {
+          "id" : "7",
+          "icon" : "bf-journey-advice",
+          "header" : "Advice",
+          "body" : "If you are given an injection of a contrast agent, it is a good idea to drink more water for the following 24h to help flush the agent out of your body."
+        },
+        {
+          "id" : "8",
+          "icon" : "bf-journey-admission",
+          "header" : "Admission",
+          "body" : "Depending on the type of procedure, you may be admitted as a day case to the short stay unit and asked to change into a hospital gown. The nurse will take you to the CT scanning facility."
+        },
+        {
+          "id" : "9",
+          "icon" : "bf-journey-safety",
+          "header" : "Safety",
+          "body" : "The radiologist will explain the procedure and take your consent. "
+        },
+        {
+          "id" : "10",
+          "icon" : "bf-journey-injection",
+          "header" : "Injection",
+          "body" : "A pen is used to mark the injection point on your body. The procedure will take place under local or general anaesthetic."
+        },
+        {
+          "id" : "11",
+          "icon" : "bf-journey-procedures",
+          "header" : "The Procedure",
+          "body" : "You will go through the scanner twice, the first time to get a general picture and the second is to obtain a detailed scan. Scanning only lasts about 20 seconds during which time we may ask you to hold your breath and lie still so the picture doesn't appear blurry."
+        },
+        {
+          "id" : "12",
+          "icon" : "bf-journey-conclusion",
+          "header" : "Conclusion",
+          "body" : "With the procedure complete you will recover from the anaesthetic before being discharged."
+        },
+        {
+          "id" : "13",
+          "icon" : "bf-journey-results",
+          "header" : "Result",
+          "body" : "The radiologist will analyse the picture and share the report of your scan with your consultant."
+        }
+      ],
+      "slider": [
+        {
+          "id"     : "1",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Reception",
+          "cap"    : "Reception"
+        },
+        {
+          "id"     : "2",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Checklist",
+          "cap"    : "Checklist"
+        },
+        {
+          "id"     : "3",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Examination_Area",
+          "cap"    : "Examination Area"
+        },
+        {
+          "id"     : "4",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Locker",
+          "cap"    : "Locker"
+        },
+        {
+          "id"     : "5",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Consent",
+          "cap"    : "Consent"
+        },
+        {
+          "id"     : "6",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Scanner",
+          "cap"    : "Scanner"
+        },
+        {
+          "id"     : "7",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Examination_Area_2",
+          "cap"    : ""
+        },
+        {
+          "id"     : "8",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Marking",
+          "cap"    : "Marking"
+        },
+        {
+          "id"     : "9",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Control_Room",
+          "cap"    : "Control Room"
+        },
+        {
+          "id"     : "10",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Advise",
+          "cap"    : "Advice"
+        },
+        {
+          "id"     : "11",
+          "path"   : "diagnostics/ct",
+          "name"   : "CT_Ward_Admission",
+          "cap"    : "Ward Admission"
+        }
+      ],
+      "image": "Diagnostics-CT",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 20:00<br><br>Saturday <br> 09:00 - 18:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "phone"   : "+44 20 8909 5801",
+            "appointment"   : "+44 20 8909 5460 / 5568",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/imaging-services/scanning-department",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":2,
+      "hash": "mri",
+      "title": "MRI",
+      "body" : "MRI (magnetic resonance imaging) uses strong magnetic fields and radio waves to produce detailed images of the inside of the body. During the scan you will be lying inside a large tunnel; it is noisy so you will be offered ear plugs or music can be provided.",
+      "journey" : [
+        {
+
+          "id" : "1",
+          "icon" : "bf-journey-appointment",
+          "header" : "Your Appointment",
+          "body" : "When arriving at the Imaging / Scanning department on your appointment day please report to the reception desk. If you cannot make the appointment please contact us so we can arrange for an alternative date."
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-safety",
+          "header" : "Safety",
+          "body" : "A member of the team will go through a questionnaire to make sure you have no metal items or implants in your body. These can affect the quality of the scan and may be a safety concern."
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-instructions",
+          "header" : "Instructions",
+          "body" : "You will then go to the locker room and change into a dressing gown."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-metalobjects",
+          "header" : "Metal Objects",
+          "body" : "For safety please remove any metal objects you have on you and place in the locker provided. Watches, coins, jewellery, hair clips, credit cards, bus & rail tickets."
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-injection",
+          "header" : "Injection",
+          "body" : "You may be injected with a small dose of a contrast agent. This is a liquid containing a dye that can help improve the accuracy of the scan."
+        },
+        {
+          "id" : "6",
+          "icon" : "bf-journey-preparation",
+          "header" : "Preparation",
+          "body" : "You will be given an intercom system so you can talk to the staff whilst having the scan. As the scanner can be noisy we offer earplugs or headphones so you can listen to music and relax."
+        },
+        {
+          "id" : "7",
+          "icon" : "bf-journey-procedures",
+          "header" : "The Procedure",
+          "body" : "The bed will slowly move you through a cylinder. The machine is open at both ends and is well lit. It is important that you lie completely still to ensure that the picture doesn't appear blurry."
+        },
+        {
+          "id" : "8",
+          "icon" : "bf-journey-duration",
+          "header" : "Duration",
+          "body" : "This scanning process takes about 30 minutes per body part."
+        },
+        {
+          "id" : "9",
+          "icon" : "bf-journey-conclusion",
+          "header" : "Conclusion",
+          "body" : "A member of the team will check that you are okay and help you to get up. You can go back to your normal activities straight away."
+        },
+        {
+          "id" : "10",
+          "icon" : "bf-journey-advice",
+          "header" : "Advice",
+          "body" : "If you are given an injection of a contrast agent, it is a good idea to drink more water for the following 24h to help flush the agent out of your body."
+        },
+        {
+          "id" : "11",
+          "icon" : "bf-journey-results",
+          "header" : "Results",
+          "body" : "The radiologist will analyse the picture and share the report of your scan with your consultant."
+        }
+      ],
+      "slider": [
+        {
+          "id"     : "1",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Reception",
+          "cap"    : "Reception"
+        },
+        {
+          "id"     : "2",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Checklist",
+          "cap"    : "Checklist"
+        },
+        {
+          "id"     : "3",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Changing_Room",
+          "cap"    : "Examination Area"
+        },
+        {
+          "id"     : "4",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Locker",
+          "cap"    : "Locker"
+        },
+        {
+          "id"     : "5",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Scanner",
+          "cap"    : "Scanner"
+        },
+        {
+          "id"     : "6",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Examination_Area",
+          "cap"    : "Examination_Area"
+        },
+        {
+          "id"     : "7",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Intercom",
+          "cap"    : "Intercom"
+        },
+        {
+          "id"     : "8",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Headphones",
+          "cap"    : "Headphones"
+        },
+        {
+          "id"     : "9",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Control_Room",
+          "cap"    : "Control Room"
+        },
+        {
+          "id"     : "10",
+          "path"   : "diagnostics/mri",
+          "name"   : "MRI_Advise",
+          "cap"    : "Advice"
+        }
+      ],
+      "image": "Diagnostics-MRI",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Saturday <br> 08:00 - 20:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "phone"   : "+44 20 8909 5443",
+            "appointment"   : "+44 20 8909 5460 / 5568",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/imaging-services/scanning-department",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":3,
+      "hash": "ultrasound",
+      "title": "Ultrasound",
+      "body" : "Ultrasound is a test that uses sound waves to create images of the organs and structures inside your body. As it uses sound waves and not radiation, it is considered to be harmless.",
+      "journey" : [
+        {
+
+          "id" : "1",
+          "icon" : "bf-journey-appointment",
+          "header" : "Your Appointment",
+          "body" : "When arriving at the Radiology / X-Ray department on your appointment day please report to the reception desk. If you cannot make the appointment please contact us so we can arrange for an alternative date."
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-consent",
+          "header" : "Consent",
+          "body" : "The radiologist will explain the process and take your consent if a procedure is taking place. "
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-preparation",
+          "header" : "Preparation",
+          "body" : "A member of staff will help you onto the bed. A clear jelly is applied over the area to be looked at which is designed to help generate an image."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-theprocess",
+          "header" : "The Process",
+          "body" : "A handheld ultrasound sensor is placed against your skin and a small amount of pressure is applied as it moves across the area."
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-procedures",
+          "header" : "The Procedure",
+          "body" : "A pen is used to mark the injection point on your body and you are then given a local anaesthetic. The radiologist uses the ultrasound machine to guide the needle into position."
+        },
+        {
+          "id" : "6",
+          "icon" : "bf-journey-conclusion",
+          "header" : "Conclusion",
+          "body" : "With the procedure complete the nurse will hand you some tissues to remove the jelly and help you to get up."
+        },
+        {
+          "id" : "7",
+          "icon" : "bf-journey-paindiary",
+          "header" : "Pain Diary",
+          "body" : "Depending on the type of procedure you may be given a pain diary to complete."
+        },
+        {
+          "id" : "8",
+          "icon" : "bf-journey-results",
+          "header" : "Results",
+          "body" : "The radiologist will analyse the picture and share the report of your scan with your consultant."
+        }
+      ],
+      "slider": [
+        {
+          "id"     : "1",
+          "path"   : "diagnostics/ultrasound",
+          "name"   : "Ultrasound_Reception",
+          "cap"    : "Reception"
+        },
+        {
+          "id"     : "2",
+          "path"   : "diagnostics/ultrasound",
+          "name"   : "Ultrasound_Checklist",
+          "cap"    : "Checklist"
+        },
+        {
+          "id"     : "3",
+          "path"   : "diagnostics/ultrasound",
+          "name"   : "Ultrasound_Scanner",
+          "cap"    : "Scanner"
+        },
+        {
+          "id"     : "4",
+          "path"   : "diagnostics/ultrasound",
+          "name"   : "Ultrasound_Marking",
+          "cap"    : "Marking"
+        },
+        {
+          "id"     : "5",
+          "path"   : "diagnostics/ultrasound",
+          "name"   : "Ultrasound_Gel",
+          "cap"    : "Gel"
+        },
+        {
+          "id"     : "6",
+          "path"   : "diagnostics/ultrasound",
+          "name"   : "Ultrasound_Procedure",
+          "cap"    : "Procedure"
+        },
+        {
+          "id"     : "7",
+          "path"   : "diagnostics/ultrasound",
+          "name"   : "Ultrasound_Examination_Area",
+          "cap"    : "Examination Area"
+        },
+        {
+          "id"     : "8",
+          "path"   : "diagnostics/ultrasound",
+          "name"   : "Ultrasound_Pain_Diary",
+          "cap"    : "Pain Diary"
+        }
+      ],
+      "image": "Diagnostics-Ultrasound",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 09:00 - 17:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "phone"   : "+44 20 8909 5443",
+            "appointment"   : "+44 20 8909 5460 / 5568",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/imaging-services/radiology-department",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        },
+        {
+          "name": "Bolsover Street",
+          "location" : [51.5230035,-0.142951],
+          "info": {
+            "times"   : "Monday - Friday <br> 07:45 - 19:45",
+            "address" : "Royal National Orthopaedic Hospital<br>45 Bolsover Street<br>Fitzrovia<br>London<br>W1W 5AQ",
+            "appointment"   : "+44 20 8909 5516",
+            "imaging"   : "020 7391 4240",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/imaging-services/radiology-department",
+            "transport":{
+              "trans"   : "",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-car"
+            }
+          }
+        }
+      ]
+
+    },
+    {
+      "id":5,
+      "hash": "xray",
+      "title": "X-ray",
+      "body" : "X-ray is a safe and painless procedure that’s often used to detect problems with the bones and some soft tissues. They are monitored and regulated so patients get the minimum amount of radiation exposure needed to produce the required image.",
+      "journey" : [
+        {
+
+          "id" : "1",
+          "icon" : "bf-journey-appointment",
+          "header" : "Your Appointment",
+          "body" : "When arriving at the Radiology / X-Ray department on your appointment day please report to the reception desk. If you cannot make the appointment please contact us so we can arrange for an alternative date."
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-preparation",
+          "header" : "Preparation",
+          "body" : "We will ask you to remove clothing around the area that is to be X-rayed and put on a hospital gown."
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-instructions",
+          "header" : "Instructions",
+          "body" : "You will either lie down on an adjustable bed or stand, depending upon which part of the body is going to be X-rayed."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-safety",
+          "header" : "Safety",
+          "body" : "A lead shield or apron may be provided for your protection. We may also ask if you are pregnant or think you might be pregnant before the scan."
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-theprocess",
+          "header" : "The Process",
+          "body" : "You will have to remain still during the scan and might have to hold your breath for a few seconds to avoid the picture becoming blurry."
+        },
+        {
+          "id" : "6",
+          "icon" : "bf-journey-conclusion",
+          "header" : "Conclusion",
+          "body" : "A member of the team will check that you are okay and help you get up. You can go back to your normal activity straight away."
+        },
+        {
+          "id" : "7",
+          "icon" : "bf-journey-results",
+          "header" : "Results",
+          "body" : "The radiologist will analyse the picture and share the report of your X-Ray with your consultant."
+        }
+      ],
+      "slider": [
+        {
+          "id"     : "1",
+          "path"   : "diagnostics/xray",
+          "name"   : "Xray_Reception",
+          "cap"    : "Reception"
+        },
+        {
+          "id"     : "2",
+          "path"   : "diagnostics/xray",
+          "name"   : "Xray_Checklist",
+          "cap"    : "Checklist"
+        },
+        {
+          "id"     : "3",
+          "path"   : "diagnostics/xray",
+          "name"   : "Xray_Scanner",
+          "cap"    : "Scanner"
+        },
+        {
+          "id"     : "4",
+          "path"   : "diagnostics/xray",
+          "name"   : "Xray_Examination_Area",
+          "cap"    : "Examination_Area"
+        },
+        {
+          "id"     : "5",
+          "path"   : "diagnostics/xray",
+          "name"   : "Xray_Control_Room",
+          "cap"    : "Control Room"
+        },
+        {
+          "id"     : "6",
+          "path"   : "diagnostics/xray",
+          "name"   : "Xray_Control_Room_2",
+          "cap"    : "Control_Room"
+        },
+        {
+          "id"     : "7",
+          "path"   : "diagnostics/xray",
+          "name"   : "Xray_Advise",
+          "cap"    : "Advice"
+        },
+        {
+          "id"     : "8",
+          "path"   : "diagnostics/xray",
+          "name"   : "Xray_Slip",
+          "cap"    : "Slip"
+        }
+      ],
+      "image": "Diagnostics-Xray",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032, -0.3107297 ],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 20:00<br><br>Saturday <br> 08:00 - 16:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "phone"   : "+44 20 8909 5443",
+            "appointment"   : "+44 20 8909 5460 / 5568",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/imaging-services/radiology-department",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        },
+        {
+          "name": "Bolsover Street",
+          "location" : [51.5230035,-0.142951],
+          "info": {
+            "times"   : "Monday - Friday <br> 07:45 - 19:45",
+            "address" : "Royal National Orthopaedic Hospital<br>45 Bolsover Street<br>Fitzrovia<br>London<br>W1W 5AQ",
+            "appointment"   : "+44 20 8909 5516",
+            "imaging"   : "020 7391 4240",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/imaging-services/radiology-department",
+            "transport":{
+              "trans"   : "",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-car"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":6,
+      "hash": "fluoroscopy",
+      "title": "Fluoroscopy",
+      "body" : "Fluoroscopy is a technique that uses X-rays to display real-time moving images of the inside of the body. Fluoroscopes connect to an X-ray image intensifier and video camera allowing the images to be recorded and played on a monitor.",
+      "journey" : [
+        {
+
+          "id" : "1",
+          "icon" : "bf-journey-appointment",
+          "header" : "Your Appointment",
+          "body" : "When arriving at the Radiology / X-Ray department on your appointment day please report to the reception desk. If you cannot make the appointment please contact us so we can arrange for an alternative date."
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-preparation",
+          "header" : "Preparation",
+          "body" : "You will be asked to change into a hospital gown before the procedure. A member of staff will help you onto the movable bed."
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-consent",
+          "header" : "Consent",
+          "body" : "The radiologist will explain the process and take your consent."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-theprocess",
+          "header" : "The Process",
+          "body" : "A pen is used to mark the injection point on your body and you are then given a local anaesthetic."
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-procedures",
+          "header" : "The Procedure",
+          "body" : "The radiologist uses the X-Ray machine to guide the needle into position."
+        },
+        {
+          "id" : "6",
+          "icon" : "bf-journey-conclusion",
+          "header" : "Conclusion",
+          "body" : "With the procedure finished we will check that you are okay before a member of the team will help you to get up."
+        },
+        {
+          "id" : "7",
+          "icon" : "bf-journey-advice",
+          "header" : "Advice",
+          "body" : "You will be given instructions on how long to keep the dressing dry. You will be able to get back to your normal activities straight away."
+        },
+        {
+          "id" : "8",
+          "icon" : "bf-journey-paindiary",
+          "header" : "Pain Diary",
+          "body" : "Depending on the type of procedure, you may be given a Pain Diary to complete."
+        }
+
+      ],
+      "slider": [
+        {
+          "id"     : "1",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Reception",
+          "cap"    : "Reception"
+        },
+        {
+          "id"     : "2",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Changing_Room",
+          "cap"    : "Changing Room"
+        },
+        {
+          "id"     : "3",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Checklist",
+          "cap"    : "Checklist"
+        },
+        {
+          "id"     : "4",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Consent",
+          "cap"    : "Consent"
+        },
+        {
+          "id"     : "5",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Scanner",
+          "cap"    : "Scanner"
+        },
+        {
+          "id"     : "6",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Examination_Area",
+          "cap"    : "Examination Area"
+        },
+        {
+          "id"     : "7",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Marking",
+          "cap"    : "Marking"
+        },
+        {
+          "id"     : "8",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Procedure",
+          "cap"    : "Procedure"
+        },
+        {
+          "id"     : "9",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Advise",
+          "cap"    : "Advice"
+        },
+        {
+          "id"     : "10",
+          "path"   : "diagnostics/fluoroscopy",
+          "name"   : "Fluoro_Pain_Diary",
+          "cap"    : "Pain Diary"
+        }
+      ],
+      "image": "Diagnostics-Fluoroscopy",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 09:00 - 17:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "phone"   : "+44 20 8909 5443",
+            "appointment"   : "+44 20 8909 5460 / 5568",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/imaging-services/radiology-department",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

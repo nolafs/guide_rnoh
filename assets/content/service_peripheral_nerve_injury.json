@@ -1,0 +1,392 @@
+{
+  "baseurl" : "/assets/images/project/services/peripheral_nerve_injury/",
+  "route"   : "peripheral_nerve_injury",
+  "feature" :
+  {
+    "title": "Peripheral Nerve Injury",
+    "type": "Specialist Services",
+    "body" : "The Stanmore Peripheral Nerve Injury Unit is recognised as a leading UK tertiary centre for the treatment of complex peripheral nerve injuries. Patients are seen and treated as emergencies as a result of acute trauma, others are referred because of chronic problems associated with earlier injury. We also deal with nerve tumours in the upper and lower limbs.",
+    "image": "pni",
+    "seq"  : "service_pni_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "body": "This service includes the diagnosis and treatment of complex peripheral nerve injuries including highly complex brachial plexus nerve repair and nerve transplantations in both infants and adults.",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Brachial Plexus Injury",
+          "body": "The brachial plexus is a complex network of nerves in the neck which controls the arm and can be damaged in a number of ways such as a motor bike accident, shoulder dislocation or collar bone fracture leading to pain, weakness, changes in sensation and quality of the skin."
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "Peripheral Nerve Tumour",
+          "class": "icon-button",
+          "body": "There are many 'tumours' that can affect the nerves, some that come from the nerves themselves and others that grow from else where but involve the nerves. These can be benign or cancerous and are most often treated with surgery. We work closely with the RNOH sarcoma and multi disciplinary team MDT in investigating and treating these."
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Nerve Root Avulsion (Pull or Tear)",
+          "class": "icon-button",
+          "body": "In injuries such as motor vehicle collisions the force of the accident can often create a severe injury of a nerve which is pulled out from the spinal cord."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Obstetric Brachial Plexus Palsy (Erb's Palsy)",
+          "class": "icon-button",
+          "body": "During some complicated pregnancies the baby sustains an injury to the nerves in the neck that control the arm. This is called Erb's Palsy or Obstetric brachial plexus palsy and the severity of this injury varies from child to child. Many show excellent natural recovery; others who have problems with growth, movement and function of the arm."
+        },
+        {
+          "id":"5",
+          "icon": "",
+          "title": "Reconstructive Procedures",
+          "class": "icon-button",
+          "body": "We offer the full range of treatment options for nerve injury. Nerve grafting, nerve transfers, musculotendinous transfers, join fusions, derotation osteotomies and free functioning muscle transfers. We also have a large practice in the full palate of surgical options  to treat neuropathic pain."
+        },
+        {
+          "id":"6",
+          "icon": "",
+          "title": "Nerve Injury ",
+          "class": "icon-button",
+          "body": "Nerves are a highly specialised kind of cell which perform many tasks. They control moment, pain sensation, childhood growth and sweating and hair growth. All of these functions can be affected by nerve damage."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "body" : "We run a respected multidisciplinary service including other surgeons within orthopaedic, specialist musculoskeletal radiologists, rehabilitation doctors, consultant anaesthetists and physiotherapists.",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Mr Michael Fox",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-mike-fox",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "mike_fox",
+          "email"   : "carol.jones@rnoh.nhs.uk",
+          "specialties"    : "Peripheral Nerve Injury"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Dr Marco Sinisi",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-marco-sinisi",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "marco_sinisi",
+          "email"   : "Elizabeth.hare@rnoh.nhs.uk",
+          "specialties"    : "Peripheral Nerve Injury"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mr Anthony MacQuillan",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-anthony-macquillian",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "anthony_macquillian",
+          "email"   : "Yaswee.mohanlal@rnoh.nhs.uk",
+          "specialties"    : "Peripheral Nerve Injury"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Mr Tom Quick",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-tom-quick",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "tom_quick",
+          "email"   : "juliette.houghton@rnoh.nhs.uk",
+          "specialties"    : "Peripheral Nerve Injury"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Kathryn Johnson",
+          "image"   : "kathryn_johnson",
+          "position": "Occupational Therapist"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Ben Hughes",
+          "image"   : "ben_hughes",
+          "position": "Senior Physiotherapist"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Hazel Brown",
+          "image"   : "hazel_brown",
+          "position": "Senior Physiotherapist"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Tony Betts",
+          "image"   : "staff_default",
+          "position": "Senior Physiotherapist"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Anne O’Byrne",
+          "image"   : "anne_o-byrne",
+          "position": "Senior Physiotherapist"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Jeelna Ruparelia",
+          "image"   : "staff_default",
+          "position": "Senior Physiotherapist"
+        },
+        {
+          "id"      : "7",
+          "name"    : "Karen Vaughan",
+          "image"   : "karen_vaughan",
+          "position": "Occupational Therapist"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Kate Kennard",
+          "image"   : "staff_default",
+          "position": "Occupational Therapist"
+        },
+        {
+          "id"      : "9",
+          "name"    : "Sally Ibbotson",
+          "image"   : "sally_ibbotson",
+          "position": "Occupational Therapist Technician"
+        },
+        {
+          "id"      : "10",
+          "name"    : "Lola Norman",
+          "image"   : "staff_default",
+          "position": "Occupational Therapist"
+        },
+        {
+          "id"      : "11",
+          "name"    : "Elaine Cobb",
+          "image"   : "elaine_cobb",
+          "position": "Occupational Therapist"
+        },
+        {
+          "id"      : "12",
+          "name"    : "Jenny Sadikot",
+          "image"   : "staff_default",
+          "position": "Occupational Therapist"
+        },
+        {
+          "id"      : "13",
+          "name"    : "Benita Patel",
+          "image"   : "benita_patel",
+          "position": "Unit Coordinator"
+        },
+        {
+          "id"      : "14",
+          "name"    : "Neena Kerai",
+          "image"   : "neena_kerai",
+          "position": "Inpatient Scheduler"
+        },
+        {
+          "id"      : "15",
+          "name"    : "Carol Jones",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "16",
+          "name"    : "Yaswee Mohanlal",
+          "image"   : "yaswee_mohanlal",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "17",
+          "name"    : "Elizabeth Hare",
+          "image"   : "elizabeth_hare",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "18",
+          "name"    : "Juliette Houghton",
+          "image"   : "juliette_houghton",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "19",
+          "name"    : "Dinu Shah",
+          "image"   : "dinu_shah",
+          "position": "Medical Records Officer"
+        }
+      ]
+    },
+    {
+      "id"  : "3",
+      "hash" : "pathway",
+      "title" : "Your Journey",
+      "body"  : "Your patient pathway starts with a referral by your local GP or Hospital and  continues until your treatment is completed.",
+      "image" : "service_journey",
+      "pathway" : [
+        {
+          "hash" : "admission",
+          "title": "Admission",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-nilbymouth",
+              "header": "Nil by Mouth",
+              "body": "Prior to surgery please do not have any liquids or foods. This may even be 24 hours beforehand."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-whattobring",
+              "header": "What to bring",
+              "body": "Please bring the following items with you: Medication & tablets, toiletries & towels, dressing gown, change of clothes, pyjamas, slippers."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-appointment",
+              "header": "Date of Admission",
+              "body": "Upon arrival at the admissions lounge we will tell you about the ward and its location. You will be seen by your consultant or a member of his team and have the opportunity to ask any final questions about your surgery."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-injection",
+              "header": "Anaesthetics",
+              "body": "We will also explain and talk to you about the anaesthetics you will have administered."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-consent",
+              "header": "Consent",
+              "body": "Once you are happy you will be ask to sign a consent form. A mark will be drawn on the arm to indicate which side and area is being operated on."
+            }
+          ]
+        },
+        {
+          "hash" : "stay",
+          "title": "During your stay",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-checkin",
+              "header": "Check in Ward",
+              "body": "Please hand in your medication to the nurse and change into a hospital gown, stockings & pants. The nurse will also check your general well being (blood pressure, heart rate, etc)."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-theatre",
+              "header": "Theatre",
+              "body": "The nurse and porter will take you to the theatre where you will meet the anaesthetist who will guide you off to sleep and if necessary administer a nerve block to help reduce post operative pain."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-surgery",
+              "header": "Surgery",
+              "body": "You then have your surgery."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-recovery",
+              "header": "Recovery",
+              "body": "When you wake up the first person you see is the recovery nurse who is there to make sure you are okay and in no pain. You will then be portered back to the ward."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-ward",
+              "header": "Ward",
+              "body": "A member of the team will come and see you after surgery to explain what took place. You are provided with your medication before being discharged home."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-physiotherapy",
+              "header": "Physiotherapist / Occupational Therapist",
+              "body": "You will be given guidance about how to manage following your surgery."
+            }
+          ]
+        },
+        {
+          "hash" : "discharge",
+          "title": "Discharge",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-appointment",
+              "header": "Appointment",
+              "body": "Your first appointment after surgery will be in 2 weeks time. A member of the medical team  will check your wound. We may also refer you to our therapy department."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-checkup",
+              "header": "Follow Up",
+              "body": "Regular medical reviews will be arranged. You may also be seen by a therapist on the same day."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-conclusion",
+              "header": "Conclusion",
+              "body": "Once your treatment is complete you will be discharged back to your GP."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id"  : "4",
+      "hash" : "testimonials",
+      "title" : "Testimonials",
+      "body" : "Everything we do is informed by patient feedback. Indeed, more than 95% of our patients would be likely or extremely likely to recommend us to their friends and family for a similar treatment.",
+      "content" : [
+        {
+          "id"      : "1",
+          "path"    : "testimonials/t_phillip",
+          "name"    : "Phillip",
+          "age"     : "46",
+          "op"      : "Brachial Plexus injury",
+          "quote"   : "“I had a bad motorbike accident and lost all movement in my left arm. Coming to the RNOH has really helped my recovery. The care I received has been exemplary and I am happier and more positive about my life.”"
+        }
+      ]
+    },
+    {
+      "id"  : "5",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 19:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "secretarialteam"   : "020 8909 5803",
+            "web"     : "https://www.rnoh.nhs.uk/our-services/peripheral-nerve-injury-unit",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        },
+        {
+          "name": "Bolsover Street",
+          "location" : [51.5230035,-0.142951],
+          "info": {
+            "times"   : "Monday - Friday <br> 07:45 - 20:00",
+            "address" : "Royal National Orthopaedic Hospital<br>45-51 Bolsover Street<br>Fitzrovia<br>London<br>W1W 5AQ",
+            "secretarialteam"   : "020 8909 5803",
+            "web"     : "https://www.rnoh.nhs.uk/our-services/peripheral-nerve-injury-unit",
+            "transport":{
+              "trans"   : "",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "baseurl" : "/assets/images/project/services/knee/",
+  "route"   : "knee",
+  "feature" :
+  {
+    "title": "Knee",
+    "type" : "Clinical Services",
+    "body" : "The Stanmore Knee unit deals with all problems associated with the knee in adults. We are leading in development of knee cartilage transplantation and play an important role in terms of research in knee services. ",
+    "image": "knee",
+    "seq"  : "service_knee_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "body": "Our service includes the diagnosis and treatment of problems arising from knee disorders deriving from sports injuries, accidents and all aspects of arthritis.",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Arthroscopic Surgery",
+          "body": "Knee arthroscopy is a surgical technique that can diagnose and treat problems in the knee joint. During the procedure, your surgeon will make a very small incision and insert a tiny camera — called an arthroscope — into your knee. "
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "Primary Replacement",
+          "class": "icon-button",
+          "body": "A primary knee replacement surgery can be performed as a partial or a total knee replacement. Surgery consists of replacing the diseased or damaged joint surfaces of the knee with metal and plastic components shaped to allow continued motion of the knee."
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Revision Surgery",
+          "class": "icon-button",
+          "body": "A revision knee operation is a more complex procedure than the original primary knee replacement and involves the removal of all worn or damaged knee components and replacement with new artificial components."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Ligament Repair / Reconstruction",
+          "class": "icon-button",
+          "body": "Knee ligament repair is a treatment for a complete tear of a knee ligament that results in instability in the knee. This involves replacing the ligament with a piece of healthy tendon from another area of the leg, such as the hamstring or patellar tendon."
+        },
+        {
+          "id":"5",
+          "icon": "",
+          "title": "Cartilage Transplantation ",
+          "class": "icon-button",
+          "body": "Cartilage transplantation involves the removing of healthy cartilage cells from the patient's knee and growing them in culture, where they multiply at least 20 fold. The patient then has an operation to remove the damaged part of the cartilage and the cells are implanted in its place."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "body" : "We run a multidisciplinary service including radiologists, arthroplasty nurses, physiotherapist and occupational therapists. ",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Professor Tim Briggs",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/professor-tim-w-r-briggs",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "tim_briggs",
+          "email"   : "tim.briggs@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Mr Will Aston",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-will-aston",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "will_aston",
+          "email"   : "jane.moody@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mr John Skinner",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-john-skinner",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "john_skinner",
+          "email"   : "nicola.saunders@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Mr Rob Pollock",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-rob-pollock",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "rob_pollock",
+          "email"   : "jan.blue@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Mr Jonathan Miles",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-jonathan-miles",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "Natalie.O'Callaghan@rnoh.nhs.uk",
+          "specialties"    : "Hip & Knee Surgery"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Mr Richard Carrington",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-richard-carrington",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "Julie.Rayner@rnoh.nhs.uk",
+          "specialties"    : "Hip & Knee Surgery"
+        },
+        {
+          "id"      : "7",
+          "name"    : "Professor Alister Hart",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/professor-alister-hart",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "alister_hart",
+          "email"   : "Nicola.Saunders@rnoh.nhs.uk",
+          "specialties"    : "Hip & Knee Surgery"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Mr Jakub Jagiello",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "jakub_jagiello",
+          "email"   : "Vibhuti.Shah@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Surgery"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Avril Power",
+          "image"   : "avril_power",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Christine Bows",
+          "image"   : "christine_bows",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Clare Cassidy",
+          "image"   : "clare_cassidy",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Ariel Solanzo",
+          "image"   : "ariel_solanzo",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Jennifer Gibbs",
+          "image"   : "jennifer_gibbs",
+          "position": "Arthroplasty Practitioner"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Manora Fothergill",
+          "image"   : "manora_fothergill",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "7",
+          "name"    : "James Aubrey-Edwards",
+          "image"   : "james_aubrey_edwards",
+          "position": "Administrative Assistant"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Veronica White",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "9",
+          "name"    : "Jane Moody",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "10",
+          "name"    : "Jan Blue",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "11",
+          "name"    : "Nicky Saunders",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "12",
+          "name"    : "Vibhuti Shah",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "13",
+          "name"    : "Julie Rayner",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "14",
+          "name"    : "Natalie O'Callaghan",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        }
+      ]
+    },
+    {
+      "id"  : "3",
+      "hash" : "pathway",
+      "title" : "Your Journey",
+      "body"  : "Your patient pathway starts with a referral by your local GP or District General Hospital and continues until your treatment is completed.",
+      "image" : "service_journey",
+      "video" : "service_knee_journey",
+      "pathway" : [
+        {
+          "hash" : "admission",
+          "title": "Admission",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-nilbymouth",
+              "header": "Nil by Mouth",
+              "body": "Prior to surgery please do not have any liquids or foods. This may even be 24 hours beforehand."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-whattobring",
+              "header": "What to bring",
+              "body": "Please bring the following items with you: Medication & tablets, toiletries & towels, dressing gown, change of clothes, pyjamas, slippers"
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-appointment",
+              "header": "Date of Admission",
+              "body": "Upon arrival at the admissions lounge we will tell you about the ward and its location. You will be seen by your consultant or a member of his team and have the opportunity to ask any final questions about your surgery."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-injection",
+              "header": "Anaesthetics",
+              "body": "We will also explain and talk to you about the anaesthetics you will have administered."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-consent",
+              "header": "Consent",
+              "body": "Once you are happy you will be ask to sign a consent form. A mark will be drawn on the knee to indicate which side and area is being operated on."
+            }
+          ]
+        },
+        {
+          "hash" : "stay",
+          "title": "During your stay",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-checkin",
+              "header": "Check in Ward",
+              "body": "Please hand in your medication to the nurse and change into a hospital gown, stockings & pants. The nurse will also check your general well being (blood pressure, heart rate, etc)."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-theatre",
+              "header": "Theatre",
+              "body": "The nurse and porter will take you to the theatre where you will meet the anaesthetist who will guide you off to sleep."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-surgery",
+              "header": "Surgery",
+              "body": "You then have your surgery."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-recovery",
+              "header": "Recovery",
+              "body": "When you wake up the first person you see is the recovery nurse who is there to make sure you are okay and in no pain. You may go to the high dependency unit overnight for monitoring."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-ward",
+              "header": "Ward",
+              "body": "A member of the team will come and see you after surgery to explain what took place."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-medication",
+              "header": "Medication",
+              "body": "You will be given suitable pain relief to help with early mobilisation. Please take your laxatives to assist your bowel movement and prevent constipation."
+            },
+            {
+              "id": "7",
+              "icon": "bf-journey-physiotherapy",
+              "header": "Physiotherapist",
+              "body": "A physiotherapist will come and see you to get you up and out of bed. This is important to minimise post operative complications and speed up your recovery. You will be instructed in exercises which you must to regularly and are very important to prevent the knee stiffing."
+            },
+            {
+              "id": "8",
+              "icon": "bf-journey-xray",
+              "header": "X Ray",
+              "body": "You will also have an X Ray and are provided with your medication before being discharged home."
+            }
+          ]
+        },
+        {
+          "hash" : "discharge",
+          "title": "Discharge",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-checkup",
+              "header": "Check up",
+              "body": "Two weeks after surgery please ensure you have arranged an appointment with your GP practice or district nurse to have your wound checked and your clips of sutures removed."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-advice",
+              "header": "Advice",
+              "body": "You will be required to wear your anti-embolism stockings for 6 weeks after your operation to reduce the threat of blood clots forming in your legs whilst less active than normal."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-injection",
+              "header": "Pain Relief",
+              "body": "We will advise you to gradually reduce your levels of pain relief with guidance from your  GP."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-appointment",
+              "header": "Appointment",
+              "body": "Your first appointment after surgery will be in 6-8 weeks time when you will see the consultant or a member of their team to assess your progress."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-conclusion",
+              "header": "Conclusion",
+              "body": "Once your treatment has been deemed successful you will be discharged back to your GP."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id"  : "4",
+      "hash" : "testimonials",
+      "title" : "Testimonials",
+      "content" : [
+        {
+          "id"      : "1",
+          "path"    : "testimonials/t_kalpana",
+          "name"    : "Kalpana",
+          "age"     : "52",
+          "op"      : "Partial Knee Replacement ",
+          "quote"   : "“The knee replacement took my night pain away; the burning sensation disappeared. Now, I can sleep normally again. It has improved the quality of my life.”"
+        }
+
+      ]
+    },
+    {
+      "id"  : "5",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 19:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "phone"   : "+44 20 8954 2300",
+            "appointment"   : "+44 20 8909 5516",
+            "web"     : "https://www.rnoh.nhs.uk",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

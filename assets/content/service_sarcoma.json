@@ -1,0 +1,387 @@
+{
+  "baseurl" : "/assets/images/project/services/sarcoma/",
+  "route"   : "sarcoma",
+  "feature" :
+  {
+    "title": "Sarcoma",
+    "type" : "Clinical Services",
+    "body" : "The Stanmore Sarcoma Unit is one of the largest Sarcoma services in Europe with an international reputation for providing the highest quality of care and treatment to patients who suffer from bone and soft tissue cancers. Being one of only five designated centres in the UK we provide diagnostic and surgical elements of the cancer pathway together with the UCLH Oncology service from the London Sarcoma Service.",
+    "image": "sarcoma",
+    "video": "service_sarcoma_intro",
+    "seq"  : "service_sarcoma_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "body": "Our surgeons work closely with oncologists and the on-site Biomedical Engineering Unit to deliver treatments like bespoke endo-prostheses, bone transportation, bone grafting and limb salvage.",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Osteosarcoma",
+          "body": "Osteosarcoma is the second most frequent primary cancer of bone and accounts for over 10% of all solid cancers in adolescents (age 15-19). It usually arises in the metaphysis of an extremity long bone, most commonly around the knee."
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "Chondrosarcoma",
+          "class": "icon-button",
+          "body": "Chondrosarcoma most commonly presents between 30 and 60 years of age. The ageing UK population means that chondrosarcoma has become the most common bone sarcoma, ahead of osteosarcoma. Most chondrosarcomas are located in long bones but they also arise in flat bones (e.g. pelvis, rib and scapula)."
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Lipo Sarcoma",
+          "class": "icon-button",
+          "body": "Sarcomas that start in the body’s fat cells are called liposarcomas. They can grow anywhere in the body and most commonly affect people aged 50-65. They tend to grow very slowly, taking many years to develop."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Ewing Sarcoma",
+          "class": "icon-button",
+          "body": "Ewing sarcoma is the third most common primary malignant bone tumour in children and adolescents, but is also seen in adults. The median age at diagnosis is around 15 years. The most frequent anatomical sites of involvement of Ewing sarcoma are the long bones, pelvis, ribs and vertebral column."
+        },
+        {
+          "id":"5",
+          "icon": "",
+          "title": "Myxofibrosarcomas",
+          "class": "icon-button",
+          "body": "This is a type of fibrosarcoma. It was previously called malignant fibrous histiocytoma (MFH). It’s not clear which type of cell it starts from. Myxofibrosarcomas can affect any part of the body, but most commonly occur in the arms or legs."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "body" : "We run a respected multidisciplinary service including specialist musculoskeletal radiologists, histopathologists, oncologists, clinical nurse specialists, key workers and rehabilitation.",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Professor Tim Briggs",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/professor-tim-w-r-briggs",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "tim_briggs",
+          "email"   : "tim.briggs@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Mr John Skinner",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-john-skinner",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "john_skinner",
+          "email"   : "nicola.saunders@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mr Rob Pollock",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-rob-pollock",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "rob_pollock",
+          "email"   : "jan.blue@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Mr Will Aston",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-will-aston",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "will_aston",
+          "email"   : "jane.moody@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Mr Jakub Jagiello",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "jakub_jagiello",
+          "email"   : "Vibhuti.Shah@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Dr Fernanda Amary",
+          "image"   : "staff_default",
+          "position": "Histopathologist"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Dr Roberto Tirabosco",
+          "image"   : "staff_default",
+          "position": "Histopathologist"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Julie Woodford",
+          "image"   : "staff_default",
+          "position": "Lead Cancer Nurse"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Jo Coleman",
+          "image"   : "jo_coleman",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Nicki Willis",
+          "image"   : "nicki_willis",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Louise Gillings",
+          "image"   : "louise_gillings",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "7",
+          "name"    : "Hannah Baldwin",
+          "image"   : "hannah_baldwin",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Jennifer Fulton",
+          "image"   : "staff_default",
+          "position": "Physiotherapy Clinical Specialist"
+        },
+        {
+          "id"      : "9",
+          "name"    : "Ruth Carr",
+          "image"   : "staff_default",
+          "position": "Physiotherapist"
+        },
+        {
+          "id"      : "10",
+          "name"    : "Suzy Hudson",
+          "image"   : "staff_default",
+          "position": "Physiotherapist"
+        },
+        {
+          "id"      : "11",
+          "name"    : "Claire Owen",
+          "image"   : "staff_default",
+          "position": "Occupational Therapist"
+        },
+        {
+          "id"      : "12",
+          "name"    : "Katherine Stein",
+          "image"   : "staff_default",
+          "position": "Occupational Therapist"
+        },
+        {
+          "id"      : "13",
+          "name"    : "Veronica White",
+          "image"   : "staff_default",
+          "position": "Medical Secretary "
+        },
+        {
+          "id"      : "14",
+          "name"    : "Jane Moody",
+          "image"   : "staff_default",
+          "position": "Medical Secretary "
+        },
+        {
+          "id"      : "15",
+          "name"    : "Jan Blue",
+          "image"   : "staff_default",
+          "position": "Medical Secretary "
+        },
+        {
+          "id"      : "16",
+          "name"    : "Nicky Saunders",
+          "image"   : "staff_default",
+          "position": "Medical Secretary "
+        },
+        {
+          "id"      : "17",
+          "name"    : "Vibhuti Shah",
+          "image"   : "staff_default",
+          "position": "Medical Secretary "
+        }
+      ]
+    },
+    {
+      "id"  : "3",
+      "hash" : "pathway",
+      "title" : "Your Journey",
+      "body"  : "The patient pathway starts with a referral by your GP or District General Hospital and continues until your treatment is completed.",
+      "image" : "service_journey",
+      "pathway" : [
+        {
+          "hash" : "admission",
+          "title": "Admission",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-nilbymouth",
+              "header": "Nil by Mouth",
+              "body": "Prior to surgery please do not have any liquids or foods. This may even be 24 hours beforehand."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-whattobring",
+              "header": "What to bring",
+              "body": "Please bring the following items with you: Medication & tablets, toiletries & towels, dressing gown, change of clothes, pyjamas, slippers"
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-appointment",
+              "header": "Date of Admission",
+              "body": "Upon arrival at the admissions lounge we will tell you about the ward and its location. You will be seen by your consultant or a member of his team and have the opportunity to ask any final questions about your surgery."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-injection",
+              "header": "Anaesthetics",
+              "body": "We will also explain and talk to you about the anaesthetics you will have administered."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-consent",
+              "header": "Consent",
+              "body": "Once you are happy you will be ask to sign a consent form. A mark will be drawn on the arm to indicate which side and area is being operated on."
+            }
+          ]
+        },
+        {
+          "hash" : "stay",
+          "title": "During your stay",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-checkin",
+              "header": "Check in Ward",
+              "body": "Please hand in your medication to the nurse and change into a hospital gown, stockings & pants. The nurse will also check your general well being (blood pressure, heart rate, etc)."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-theatre",
+              "header": "Theatre",
+              "body": "The nurse and porter will take you to the theatre where you will meet the anaesthetist who will guide you off to sleep and if necessary administer a nerve block to help reduce post operative pain."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-surgery",
+              "header": "Surgery",
+              "body": "You then have your surgery."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-recovery",
+              "header": "Recovery",
+              "body": "When you wake up the first person you see is the recovery nurse who is there to make sure you are okay and in no pain. You will then be portered back to the ward."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-ward",
+              "header": "Ward",
+              "body": "A member of the team will come and see you after surgery to explain what took place."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-physiotherapy",
+              "header": "Physiotherapist",
+              "body": "A physiotherapist will come and see you to go through your post operative precautions and exercises. This is important to minimise complications and speed up your recovery."
+            },
+            {
+              "id": "7",
+              "icon": "bf-journey-support",
+              "header": "Occupational Therapist",
+              "body": "You will also be visited by the occupational therapist to advise you on how to manage daily actives, return to work and sporting & leisure activities. You are provided with your medication before being discharged home."
+            }
+          ]
+        },
+        {
+          "hash" : "discharge",
+          "title": "Discharge",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-checkup",
+              "header": "Check up",
+              "body": "Once you have returned home please ensure you have arranged a wound check appointment with your GP practice nurse within 2 weeks of your surgery."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-assessment",
+              "header": "Assessment",
+              "body": "Your first appointment after surgery will be a few weeks time when you will see the consultant or a member of their team to assess your progress."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-checkup",
+              "header": "Follow Up",
+              "body": "You will be followed up again 3 month after surgery, 6 month and yearly."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-conclusion",
+              "header": "Conclusion",
+              "body": "Once your treatment has been deemed successful you will be discharged back to your GP."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id"  : "4",
+      "hash" : "testimonials",
+      "title" : "Testimonials",
+      "body" : "Everything we do is informed by patient feedback. Indeed, more than 95% of our patients would be likely or extremely likely to recommend us to their friends and family for a similar treatment.",
+      "content" : [
+        {
+          "id"      : "1",
+          "path"    : "testimonials/t_louisa",
+          "name"    : "Louisa",
+          "age"     : "33",
+          "op"      : "Sarcoma",
+          "quote"   : "“The implant has completely given me my confidence and independence back. Everyday tasks are so much easier, especially as a mum. I can do so much more.”",
+          "video"     : "service_sarcoma_testimonial_1"
+        },
+        {
+          "id"      : "2",
+          "path"    : "testimonials/t_andrew",
+          "name"    : "Andrew",
+          "age"     : "46",
+          "op"      : "Knee Replacement",
+          "quote"   : "“Thanks to the pioneering treatment at RNOH I am back to walking, swimming and going to the gym after my major knee surgery to remove a bone tumour.”"
+        }
+      ]
+    },
+    {
+      "id"  : "5",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 19:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "supportline"   : "020 8909 5512",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/sarcoma-unit",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

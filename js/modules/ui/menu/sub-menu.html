@@ -1,0 +1,8 @@
+<div class="sub-menu-bar">
+  <div ng-show="toggleBt" role="button" aria-label="Toggle Navigation" ng-click="menuToggle()" ng-class="toggle ? 'expanded' : 'collapsed'" class="btToggle"><span>Select</span><i class="fa" ng-class="toggle ? 'fa-angle-up' : 'fa-angle-down'" ></i></div>
+  <ul  class="sub-menu" ng-class="toggle ? 'expanded' : 'collapsed'">
+
+            <submenu-i ng-if="type!=='sub'" ng-repeat="i in submenu | orderBy:'id'" type="type" sref="{{ routeData }}({sub:'{{subData}}','#':'{{ i.hash  }}'})">{{ i.title  }}</submenu-i>
+            <submenu-i ng-if="type=='sub'" ng-repeat="i in submenu | orderBy:'id'"  type="type" sref="{{ routeData }}.sub({sub:'{{ i.hash}}'})">{{ i.title  }}</submenu-i>
+        </ul>
+</div>

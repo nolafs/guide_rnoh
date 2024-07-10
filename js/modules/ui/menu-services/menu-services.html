@@ -1,0 +1,21 @@
+<article>
+    <div class="grid services-menu">
+        <div class="row">
+            <div class="small-12 medium-4 columns clinical-holder">
+                <ul class="service-menu clinical">
+                    <li ng-repeat="items in contentData.subs | filter: { type: 'clinical' } ">
+                        <link-services-button id="{{ items.sref  }}"  sref="app.content.{{ contentData.subSref }}({sub:'{{ items.sref }}'})" name="{{ items.name }}"></link-services-button>
+                    </li>
+                </ul>
+            </div>
+            <div class="medium-4 columns hide-for-medium-down"></div>
+            <div class="small-12 medium-4 columns specialist-holder">
+                <ul class="service-menu specialist">
+                    <li ng-repeat="items in contentData.subs | filter: { type: 'specialist' } ">
+                        <link-services-button id="{{items.sref}}" sref="app.content.{{ contentData.subSref }}({sub:'{{ items.sref }}'})" name="{{ items.name }}"></link-services-button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>

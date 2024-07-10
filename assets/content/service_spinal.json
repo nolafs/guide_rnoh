@@ -1,0 +1,466 @@
+{
+  "baseurl" : "/assets/images/project/services/spinal/",
+  "route"   : "spinal",
+  "feature" :
+  {
+    "title": "Spinal",
+    "type" : "Clinical Services",
+    "body" : "The Stanmore Spinal Surgical unit includes one of the largest spinal deformity services in Europe with a world-renowned reputation for its pioneering work. Our specialist spinal surgeons treat a wide variety of patients from simple to very complex problems using latest technology such as O-arm scanners and magnetic growth rods.",
+    "image": "spinal",
+    "seq"  : "service_spinal_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "body": "Our service is focused on the diagnosis and treatment of a wide variety of problems including scoliosis, spinal cord compression and myeloma in children, adolescents and adults.",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "title": "Scoliosis",
+          "class": "icon-button",
+          "body": "Scoliosis is the abnormal twisting and curvature of the spine. It is usually first noticed by a change in appearance of the back.Typical signs include: a visibly curved spine, a difference in leg lengths or one shoulder being higher than the other."
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "Cerebral Palsy",
+          "class": "icon-button",
+          "body": "Cerebral palsy is caused by abnormal development or damage to the parts of the brain that control movement, balance, and posture. Most often the problems occur during pregnancy; however, they may also occur during childbirth, or shortly after birth. "
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Myeloma",
+          "class": "icon-button",
+          "body": "Myeloma is a cancer arising from plasma cells, a type of white blood cell which is made in the bone marrow. Bone marrow is the ‘spongy’ material found in the centre of the larger bones in the body. Myeloma affects multiple places in the body where bone marrow is normally active in an adult i.e. within the bones of the spine, skull, pelvis, the rib cage, long bones of the arms and legs and the areas around the shoulders and hips."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Spinal Cord Compression",
+          "class": "icon-button",
+          "body": "Spinal cord compression happens when there is pressure on the spinal cord. This pressure may be caused by a cancer that started in, or has spread into, the bones of the spine. Most of these are due to cancer spreading to the spine from another part of the body (metastases). Apart from cancer, other causes of spinal cord compression include injury to the spinal cord, weakening of the bones (osteoporosis) and infection."
+        },
+        {
+          "id":"5",
+          "icon": "",
+          "title": "Muscular Dystrophies",
+          "class": "icon-button",
+          "body": "Muscular dystrophy is a group of muscle diseases that weaken the musculoskeletal system and hamper locomotion (walking or moving in some way) and are characterized by progressive skeletal muscle weakness, defects in muscle proteins, and the death of muscle cells and tissue."
+        },
+        {
+          "id":"6",
+          "icon": "",
+          "title": "Tumors",
+          "class": "icon-button",
+          "body": "Tumors can develop in the vertebrae, nerves, and other tissue throughout your spine. Some spine tumors, such as astrocytomas, occur more commonly in children and adolescents. The vast majority of spine tumors are metastatic. These tumors arise from cancer that begins in another part of the body, such as the lungs, breasts, colon, prostate, kidneys, or thyroid gland. Sarcomas – cancers of the bone, muscle, or connective tissue – can also spread to the spine."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "body" : "We run a multidisciplinary team including specialist radiologists, orthotists, physiotherapists and clinical nurse specialists - specialist nurses.",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Mr Adrian Casey",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-adrian-casey",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "adrian_casey",
+          "email"   : "allan.yank@rnoh.nhs.uk",
+          "specialties"    : "Degenerative Spine Surgery & Spinal Injury"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Mr Alex Gibson",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-alexander-gibson",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "alex_gibson",
+          "email"   : "Jackie.Hajrizi@rnoh.nhs.uk",
+          "specialties"    : "Spinal Deformity & Injury"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mr Jan Lehovsky",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-jan-lehovsky",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "jan_lehovsky",
+          "email"   : "Shirley.Moore@rnoh.nhs.uk",
+          "specialties"    : "Spinal Deformity & Injury"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Mr Sean Molloy",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-sean-molloy",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "Jill.Moore@rnoh.nhs.uk",
+          "specialties"    : "Spinal Deformity & Injury"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Mr Hilali Noordeen",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-hilali-noordeen",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "val.bodle@rnoh.nhs.uk",
+          "specialties"    : "Spinal Deformity & Injury"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Mr Kia Rezajooi",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-kia-rezajooi",
+          "position": "Consultant Neurological & Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "vatsala.dodhia@rnoh.nhs.uk",
+          "specialties"    : "Degenerative Spine Surgery & Spinal Injury, Neuro-surgery"
+        },
+        {
+          "id"      : "7",
+          "name"    : "Mr Matthew Shaw",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-matthew-shaw",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "matthew_shaw",
+          "email"   : "Audrey.Garvey@rnoh.nhs.uk",
+          "specialties"    : "Spinal Deformity & Injury"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Julian Leong",
+          "link"    : "",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "julian_leong",
+          "email"   : "Alex.Gregory@rnoh.nhs.uk",
+          "specialties"    : "Spinal Deformity & Injury"
+        },
+        {
+          "id"      : "9",
+          "name"    : "Hanny Anwar",
+          "link"    : "",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "hanny_anwar",
+          "email"   : "Alex.Gregory@rnoh.nhs.uk",
+          "specialties"    : "Spinal Deformity, Injury & Tumor"
+        },
+        {
+          "id"      : "10",
+          "name"    : "Mr Robert Lee",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-robert-lee",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "robert_lee",
+          "email"   : "deborah.mitchell@rnoh.nhs.uk",
+          "specialties"    : "Degenerative Spine Surgery & Spinal Injury"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Sue Lister",
+          "image"   : "sue_lister",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Clare Harman",
+          "image"   : "clare_harman",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Louise Ward",
+          "image"   : "louise_ward",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Susanne Selvadurai",
+          "image"   : "susanne_selvadurai",
+          "position": "Consultant Physiotherapist"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Gemma Bruce",
+          "image"   : "gemma_bruce",
+          "position": "Physiotherapist"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Carly Sueapan",
+          "image"   : "staff_default",
+          "position": "Occupational Therapist"
+        },
+        {
+          "id"      : "7",
+          "name"    : "Stacey Evangelides",
+          "image"   : "staff_default",
+          "position": "Myeloma Service Coordinator "
+        },
+        {
+          "id"      : "8",
+          "name"    : "Zin Mon",
+          "image"   : "staff_default",
+          "position": "Spinal Surgical MDT Coordinator"
+        },
+        {
+          "id"      : "9",
+          "name"    : "Allan Yank",
+          "image"   : "staff_default",
+          "position": "Medical Secretary "
+        },
+        {
+          "id"      : "10",
+          "name"    : "Jackie Hajrizi",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "11",
+          "name"    : "Shirley Moore",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "12",
+          "name"    : "Jill Moore",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "13",
+          "name"    : "Val Bodle",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "14",
+          "name"    : "Vatsala Dodhia",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "15",
+          "name"    : "Audrey Garvey",
+          "image"   : "audrey_garvey",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "16",
+          "name"    : "Kathryn Harris",
+          "image"   : "kathryn_harris",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "17",
+          "name"    : "Deborah Mitchell",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "18",
+          "name"    : "Alex Gregory",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        }
+      ]
+    },
+    {
+      "id"  : "3",
+      "hash" : "pathway",
+      "title" : "Your Journey",
+      "body"  : "The patient pathway starts with a referral by your GP or District General Hospital and continues until your treatment is completed.",
+      "image" : "service_journey",
+      "video" : "service_spinal_journey",
+      "pathway" : [
+        {
+          "hash" : "admission",
+          "title": "Admission",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-nilbymouth",
+              "header": "Nil by Mouth",
+              "body": "Prior to surgery please do not have any liquids or foods. This may even be 24 hours beforehand."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-whattobring",
+              "header": "What to bring",
+              "body": "Please bring the following items with you: Medication & tablets, toiletries & towels, dressing gown, change of clothes, pyjamas, slippers."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-appointment",
+              "header": "Date of Admission",
+              "body": "Upon arrival at the admissions lounge, we will tell you about the ward and its location."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-checkin",
+              "header": "Check in Ward",
+              "body": "Please hand in your medication to the nurse and change into a hospital gown, stockings & pants. The nurse will also check your general well being (blood pressure, heart rate, etc)."
+            }
+          ]
+        },
+        {
+          "hash" : "stay",
+          "title": "During your stay",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-consent",
+              "header": "Consent",
+              "body": "Members of the team will confirm your consent form is all correct, draw a mark on the leg which is being operated on and answer any last minute questions you will be having."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-injection",
+              "header": "Anaesthetics",
+              "body": "We will also explain and talk to you about the anaesthetics you will have administered."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-theatre",
+              "header": "Theatre",
+              "body": "The nurse and porter will take you to the theatre where you will meet the anaesthetist who will guide you off to sleep."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-surgery",
+              "header": "Surgery",
+              "body": "You then have your surgery."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-recovery",
+              "header": "Recovery",
+              "body": "When you wake up the first person you see is the recovery nurse who is there to make sure you are okay and in no pain. You will go to the high dependency unit overnight for monitoring."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-safety",
+              "header": "Safety",
+              "body": "We will closely monitor your well being and provide you with a button, which on pressing will deliver pain relief. You will also have pumps attached to your lower legs to help reduce the chance of developing blood cloths. A catheter will allow you to pass urine whilst less mobile."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-ward",
+              "header": "Ward",
+              "body": "A member of the team will come and see you after surgery to explain what took place."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-physiotherapy",
+              "header": "Physiotherapist",
+              "body": "A physiotherapist will come and see you to get you up and out of bed. This is important to minimise post operative complications and speed up your recovery."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-medication",
+              "header": "Medication",
+              "body": "You will be given suitable pain relief to help with early mobilisation. Please take your laxatives to assist your bowel movement and prevent constipation."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-support",
+              "header": "Occupational Therapist",
+              "body": "The occupational therapist will explain the precautions after your surgery (avoid lifting, bending, twisting & no sport for 3 month) We will advise you with regards to managing daily actives and returning to work."
+            }
+          ]
+        },
+        {
+          "hash" : "discharge",
+          "title": "Discharge",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-advice",
+              "header": "Advice",
+              "body": "When at home, please ensure that you change your position regular throughout your day whilst increasing the time you are sitting and walking."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-appointment",
+              "header": "Appointment",
+              "body": "Around 6 weeks after your operation an outpatient physiotherapist will teach you abdominal and back strengthening exercise."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-checkin",
+              "header": "Stockings",
+              "body": "You will be required to wear your anti-embolism stockings for 6 weeks after your operation to reduce the threat of blood clots forming in your legs whilst less active than normal."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-checkup",
+              "header": "Check up",
+              "body": "10-14 days after your operation please visit your GP practice nurse to have your wound checked and your clips or sutures removed."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-assessment",
+              "header": "Assessment",
+              "body": "Your first appointment after surgery will be in 6 weeks time when you will see the consultant or a member of their team to assess your progress."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-xray",
+              "header": "X Ray",
+              "body": "We will send you an X Ray so please make ensure to arrive 15 minutes before your appointment. Certain restrictions may be lifted at this point in time."
+            },
+            {
+              "id": "7",
+              "icon": "bf-journey-conclusion",
+              "header": "Conclusion",
+              "body": "Once your treatment has been deemed successful you will be discharged back to your GP."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id"  : "4",
+      "hash" : "testimonials",
+      "title" : "Testimonials",
+      "content" : [
+        {
+          "id"      : "1",
+          "path"    : "testimonials/t_johnathan",
+          "name"    : "Johnathan",
+          "age"     : "43",
+          "op"      : "Lower Back Fusion",
+          "quote"   : "Before my surgery I was in pain 24 hours a day; I was forced to spend most of my time lying down, could not walk very far and was unable to stand up straight. Now, I have my life back again. Thank you."
+        }
+      ]
+    },
+    {
+      "id"  : "5",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 19:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "supportline"   : "020 8909 5328",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/spinal-surgical-unit",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

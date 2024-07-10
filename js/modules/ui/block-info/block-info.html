@@ -1,0 +1,132 @@
+<div class="info">
+    <div class="wrap __white __full row-tbm __center">
+        <div class="row">
+            <div class="medium-3 small-12 columns">
+                <div class="tb __c">
+                    <div class="tb_c" >
+                        <i class="fa fa-map-marker"></i><br>
+                        <span ng-bind-html="address"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="medium-3 small-12 columns times">
+                <div class="tb __c">
+                    <div class="tb_c" ng-if="times">
+                        <i class="fa fa-clock-o"></i><br>
+                        <span ng-bind-html="times"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="medium-3 small-12 columns">
+                <div class="tb __c">
+                    <div class="tb_c" >
+                      <i class="fa fa-phone"></i><br>
+                        <ul>
+                            <li ng-if="phone">
+                                <h4>General Enquiries:</h4>
+                                <span ng-bind-html="phone"></span>
+                            </li>
+                            <li ng-if="appointment">
+                                <h4>Appointment and Cancellations:</h4>
+                                <span ng-bind-html="appointment"></span>
+                            </li>
+                          <li ng-if="supportline">
+                            <h4>Patient Support Line:</h4>
+                            <span ng-bind-html="supportline"></span>
+                          </li>
+                            <li ng-if="reception">
+                              <h4>Reception:</h4>
+                              <span ng-bind-html="reception"></span>
+                            </li>
+                            <li ng-if="secretarialteam">
+                              <h4>Secretarial Team:</h4>
+                              <span ng-bind-html="secretarialteam"></span>
+                            </li>
+                            <li ng-if="admissionslounge">
+                              <h4>Secretarial Team:</h4>
+                              <span ng-bind-html="admissionslounge"></span>
+                            </li>
+                            <li ng-if="switchboard">
+                              <h4>Secretarial Team:</h4>
+                              <span ng-bind-html="switchboard"></span>
+                            </li>
+                            <li ng-if="preadmissiondepartment">
+                              <h4>Pre Admission Department:</h4>
+                              <span ng-bind-html="preadmissiondepartment"></span>
+                            </li>
+                            <li ng-if="preadmissionscheduler">
+                              <h4>Pre Admission Scheduler:</h4>
+                              <span ng-bind-html="preadmissionscheduler"></span>
+                            </li>
+                            <li ng-if="transportbooking">
+                              <h4>Patient Transport Booking Line:</h4>
+                              <span ng-bind-html="transportbooking"></span>
+                            </li>
+                            <li ng-if="fax">
+                              <h4>Fax:</h4>
+                              <span ng-bind-html="fax"></span>
+                            </li>
+                            <li ng-if="imaging">
+                              <h4>Imaging:</h4>
+                              <span ng-bind-html="imaging"></span>
+                            </li>
+                            <li ng-if="textreplace">
+                              <span ng-bind-html="textreplace"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="medium-3 small-12 columns">
+                <div class="tb __c">
+                    <div class="tb_c" >
+                        <ul>
+                            <li>
+                                <i class="fa fa-link"></i><br>
+                                <a href="{{ web }}" class="info-link" target="_blank">www.rnoh.nhs.uk</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="transport wrap __blue __full row-tbm __center" ng-if="transport">
+        <div class="row">
+            <div ng-if="transport.car" class="medium-4 small-12 columns">
+                <a ng-href="{{ transport.car }}" target="_blank">
+                    <div class="tb __c">
+                        <div class="tb_c">
+                            <i class="bf-car"></i><br>
+                            By car
+                        </div>
+                    </div>
+                    <div class="bt-white-bg"></div>
+                </a>
+            </div>
+            <div ng-if="transport.public" class="medium-4 small-12 columns">
+                    <a ng-href="{{ transport.public }}" target="_blank">
+                        <div class="tb __c out">
+                            <div class="tb_c in">
+                                <i class="bf-underground"></i><i class="bf-nationalrail"></i><i class="bf-bus"></i><br>
+                                By public transport
+                            </div>
+                        </div>
+                        <div class="bt-white-bg"></div>
+                    </a>
+            </div>
+            <div ng-if="transport.trans" class="medium-4 small-12 columns">
+                    <a ng-href="{{ transport.trans }}" target="_blank">
+                        <div class="tb __c">
+                            <div class="tb_c">
+                                <i class="bf-courtesyvehicle"></i><br>
+                                RNOH courtesy vehicle service
+                            </div>
+                        </div>
+                        <div class="bt-white-bg"></div>
+                    </a>
+            </div>
+
+        </div>
+    </div>
+</div>

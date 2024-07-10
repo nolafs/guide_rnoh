@@ -1,0 +1,20 @@
+<div  class="main-content">
+    <section id="intro">
+        <btnblockparallaxvideo header-data="{{ ctrl.sub.title }}" color-data="black" parallax-data="{{ ctrl.sub.hash }}" image-data="{{ ctrl.sub.image }}" state-data="app.content.outpatient.sub.video" video-data="{{ ctrl.hash }}_{{ ctrl.sub.hash }}" content-data="ctrl.sub.body"></btnblockparallaxvideo>
+        <blockTab ng-if="ctrl.sub.referral" id-data="ctrl.sub.hash" title-data="ctrl.sub.referral.title" content-data="ctrl.sub.referral"></blockTab>
+        <blockJourney  id-data="ctrl.sub.hash" title-data="Your Journey" journey-data="ctrl.sub.journey"></blockJourney>
+        <div ng-if="ctrl.sub.slider" class="wrap __full __white __center">
+            <div class="row">
+                <div class="slider-holder">
+                    <div class="small-12 columns">
+                        <slick infinite="true" dots="true"  on-after-change="onInit()" autoplay="true" slides-to-show=1 slides-to-scroll=1 init-onload=true data="ctrl.sub.slider" center-padding="50" center-mode="true" class="slider  multiple-items" >
+                            <div ng-repeat="items in ctrl.sub.slider"><div class="slide"><img ng-src="/assets/images/media/slider/{{ items.path }}/{{ items.name }}.jpg" alt="{{ items.cap }}"/><div class="caption">{{ items.cap }}</div></div></div>
+                        </slick>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <direction-map ng-if="ctrl.sub.location" location-Data="{{ctrl.sub.location}}" linkData="two" location-title="ctrl.sub.info.location"></direction-map>
+        <block-info ng-if="ctrl.sub.info" content-data="{{ ctrl.sub.info }} "></block-info>
+    </section>
+</div>

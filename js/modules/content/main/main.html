@@ -1,0 +1,76 @@
+<div class="rich"  ng-controller="MainController as ctrl" ng-cloak>
+    <div  id="main" class="wrap __full __center __white">
+        <menu-body content-data="ctrl.content[0]">
+          <div class="section __vertical  feature" spark-scroll-animate="{
+              0:{ opacity:1},
+              centerTop:{opacity:0}
+              }" spark-id="hero">
+              <div class="wrap">
+                  <article>
+                      <h1>
+                          <span>Welcome to the</span> Royal National Orthopaedic Hospital
+                      </h1>
+                      <p class="main_subtitle">The largest specialist orthopaedic hospital in the UK and a world leader in the field of orthopaedics.</p>
+                      <p><btnvideo state-data="app.content.main.video" video-data="intro" color-data="__black"></btnvideo></p>
+                      <indicator-scroll  active="scroll=true" ></indicator-scroll>
+                  </article>
+              </div>
+
+          </div>
+          <div class="section __vertical service-header">
+                <div class="wrap">
+                    <h2>Specialist Services</h2>
+                </div>
+          </div>
+          <div class="section __vertical  service" spark-scroll-animate="{
+              0:{ opacity:0},
+              topTop:{opacity:1}
+              }" spark-trigger="service" spark-id="service">
+              <div class="wrap">
+                  <menu-services content-data="ctrl.content[0]"></menu-services>
+              </div>
+          </div>
+        </menu-body>
+    </div>
+    <div class="parallax" ng-repeat="c in ctrl.content | slice:1:ctrl.content.length">
+        <btnBlockParallax header-data="{{ c.title }}" color-data="black" parallax-data="{{ c.id }}}" image-data='{{ c.image }}' sref="{{ c.sref }}" content-data="c.body"></btnBlockParallax>
+    </div>
+    <div class="side-social-holder">
+      <a href="#"
+         socialshare
+         socialshare-provider="facebook"
+         socialshare-text="RNOH Patient Guide"
+         socialshare-url="" spark-scroll-animate="{
+              0:{ marginLeft: '0',opacity:1},
+              centerCenter:{marginLeft: '-50px', opacity:0}
+              }" spark-id="hero">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="#"
+         socialshare
+         socialshare-provider="twitter"
+         socialshare-text="RNOH Patient Guide"
+         socialshare-url="" spark-scroll-animate="{
+              0:{ marginLeft: '0',opacity:1},
+              centerCenter:{marginLeft: '-50px', opacity:0}
+              }" spark-id="hero">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.youtube.com/user/RNOHnhs" target="_blank" spark-scroll-animate="{
+              0:{ marginLeft: '0',opacity:1},
+              centerCenter:{marginLeft: '-50px', opacity:0}
+              }" spark-id="hero">
+        <i class="fa fa-youtube-play"></i>
+      </a>
+      <a href="#"
+         socialshare
+         socialshare-provider="linkedin"
+         socialshare-text="RNOH Patient Guide"
+         socialshare-url="" spark-scroll-animate="{
+              0:{ marginLeft: '0',opacity:1},
+              centerCenter:{marginLeft: '-50px', opacity:0}
+              }" spark-id="hero">
+        <i class="fa fa-linkedin  "></i>
+      </a>
+    </div>
+</div>

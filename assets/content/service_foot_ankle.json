@@ -1,0 +1,368 @@
+{
+  "baseurl" : "/assets/images/project/services/foot_ankle/",
+  "route"   : "foot_ankle",
+  "feature" :
+  {
+    "title": "Foot & Ankle",
+    "type" : "Clinical Services",
+    "body" : "Stanmore Foot & Ankle is led by some of the most experienced orthopaedic foot and ankle specialists in the UK. We treat patients from all around the world, including celebrities and leading athletes",
+    "image": "foot_ankle",
+    "video": "service_foot_ankle_intro",
+    "seq"  : "service_foot_ankle_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "body": "Our service includes the diagnosis and treatment of foot and ankle problems including injuries, arthritis and any deformity.",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Achilles Problems",
+          "body": "Achilles problems include rupture, tear, inflammation of the big tendon at the back of the heel."
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "Ankle Arthritis",
+          "class": "icon-button",
+          "body": "Damage or wear to the cartilage (gristle on chicken bone) in the ankle joint causing stiffness and pain on movement."
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Bunions",
+          "class": "icon-button",
+          "body": "The metatarsal bone in the big toe moves sideways creating a bump. It's not a growth of bone."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Flat Foot",
+          "class": "icon-button",
+          "body": "Is a loss of the arch on the inside of the foot. This can be congenital and without symptoms or acquired or symptomatic."
+        },
+        {
+          "id":"5",
+          "icon": "",
+          "title": "Complex Deformity",
+          "class": "icon-button",
+          "body": "Post trauma or neurological, can require numerous procedures at one time or two or three stage operations. Congenital deformity such as club foot or commonly polio."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "body" : "We run a respected multidisciplinary service including physiotherapists, orthotists, physician’s assistants, and specialist nurses. ",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Mr Dishan Singh",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-dishan-singh",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "dishan_singh",
+          "email"   : "foot.ankle@rnoh.nhs.uk",
+          "specialties"    : "Foot and Ankle Surgery"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Mr Nick Cullen",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "nick_cullen",
+          "email"   : "foot.ankle@rnoh.nhs.uk",
+          "specialties"    : "Foot and Ankle Surgery"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mr Andy Goldberg OBE",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-andy-goldberg-obe",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "andy_goldberg",
+          "email"   : "foot.ankle@rnoh.nhs.uk",
+          "specialties"    : "Foot and Ankle Surgery"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Karen Alligan",
+          "image"   : "karen_alligan",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Laleh Salimi",
+          "image"   : "laleh_salimi",
+          "position": "Physician Associate"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Simon Chambers",
+          "image"   : "simon_chambers",
+          "position": "Senior Physiotherapist"
+        },
+
+        {
+          "id"      : "4",
+          "name"    : "Donna McGuigan",
+          "image"   : "donna_mcguigan",
+          "position": "Clinical Lead"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Eileen Reinhardt",
+          "image"   : "eileen_reinhardt",
+          "position": "Senior Orthotist"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Matthew Peirce",
+          "image"   : "matthew_peirce",
+          "position": "Podiatrist"
+        },
+
+        {
+          "id"      : "7",
+          "name"    : "Frances Carney ",
+          "image"   : "frances_carney",
+          "position": "Unit Coordinator"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Kharren Denton ",
+          "image"   : "kharren_denton",
+          "position": "Pathway Lead"
+        },
+        {
+          "id"      : "9",
+          "name"    : "Margaret Carbery",
+          "image"   : "margaret_carbery",
+          "position": "Unit Administrator"
+        },
+        {
+          "id"      : "10",
+          "name"    : "Nisha Bhudiya",
+          "image"   : "nisha_bhudiya",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "11",
+          "name"    : "Fiona Hughes ",
+          "image"   : "fiona_hughes",
+          "position": "Admin Support"
+        },
+        {
+          "id"      : "12",
+          "name"    : "Kusum Shah",
+          "image"   : "kusum_shah",
+          "position": "Admin Support"
+        }
+      ]
+    },
+    {
+      "id"  : "3",
+      "hash" : "pathway",
+      "title" : "Your Journey",
+      "body"  : "Your patient pathway starts with a referral by your local GP or District General Hospital and  continues until your treatment is completed.",
+      "image" : "service_journey",
+      "video" : "service_foot_ankle_journey",
+      "pathway" : [
+        {
+          "hash" : "admission",
+          "title": "Admission",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-nilbymouth",
+              "header": "Nil by Mouth",
+              "body": "Prior to surgery please do not have any liquids or foods. This may even be 24 hours beforehand."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-whattobring",
+              "header": "What to bring",
+              "body": "Please bring the following items with you: Medication & tablets, toiletries & towels, dressing gown, change of clothes, pyjamas, slippers."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-appointment",
+              "header": "Date of Admission",
+              "body": "Upon arrival at the admissions lounge, we will tell you about the ward and its location."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-checkin",
+              "header": "Check in Ward",
+              "body": "Please hand in your medication to the nurse and change into a hospital gown, stockings & pants. The nurse will also check your general well being (blood pressure, heart rate, etc)."
+            }
+          ]
+        },
+        {
+          "hash" : "stay",
+          "title": "During your stay",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-consent",
+              "header": "Consent",
+              "body": "Members of the team will confirm your consent form is all correct, draw a mark on the leg which is being operated on and answer any last minute questions you will be having."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-injection",
+              "header": "Anaesthetics",
+              "body": "We will also explain and talk to you about the anaesthetics you will have administered."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-theatre",
+              "header": "Theatre",
+              "body": "The nurse and porter will take you to the theatre where you will meet the anaesthetist who will guide you off to sleep and if necessary administer a nerve block to help reduce post operative pain."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-surgery",
+              "header": "Surgery",
+              "body": "You then have your surgery."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-recovery",
+              "header": "Recovery",
+              "body": "When you wake up the first person you see is the recovery nurse who is there to make sure you are okay and in no pain. You will then be portered back to the ward."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-ward",
+              "header": "Ward",
+              "body": "A member of the team will come and see you after surgery to explain what took place."
+            },
+            {
+              "id": "7",
+              "icon": "bf-journey-physiotherapy",
+              "header": "Physiotherapist",
+              "body": "You will also meet the physiotherapist to help you with your recovery and to ensure you can use crutches properly & safely."
+            },
+            {
+              "id": "8",
+              "icon": "bf-journey-plastercast",
+              "header": "Plaster Cast",
+              "body": "Your plaster cast will be changed and you are provided with your medication before being discharged home."
+            }
+          ]
+        },
+        {
+          "hash" : "discharge",
+          "title": "Discharge",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-advice",
+              "header": "Advice",
+              "body": "After arriving home please rest, keep your leg raised and take your medication. This will ensure a quicker recovery."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-appointment",
+              "header": "Appointment",
+              "body": "Your first appointment after surgery will be in 2 weeks time. If you are in plaster you will be sent straight to the plaster theatre for a check up."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-preparation",
+              "header": "Check Up",
+              "body": "Our clinical nurse specialist will check your wound and remove your stitches."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-support",
+              "header": "Assessment",
+              "body": "The next appointment will depend on the type of surgery you’ve had and is often a few weeks after surgery. The consultant or member of the team will assess your progress."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-conclusion",
+              "header": "Conclusion",
+              "body": "Once your treatment has been deemed successful you will be discharged back to your GP."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id"  : "4",
+      "hash" : "testimonials",
+      "title" : "Testimonials",
+      "body"  : "Everything we do is informed by patient feedback. Indeed, more than 95% of our patients would be likely or extremely likely to recommend us to their friends and family for a similar treatment.",
+      "content" : [
+        {
+          "id"      : "1",
+          "path"    : "testimonials/t_silvester",
+          "name"    : "Silvester",
+          "age"     : "72",
+          "op"      : "Ankle Fusion",
+          "quote"   : "“I suffered from arthritis in my ankles. My acting career was very physical;  I was tumbling and falling, I was really punishing my joints. When I was about 50 it became almost impossible to do any physical work. So I had to get it fixed.”",
+          "video"     : "service_foot_ankle_testimonial_1"
+        },
+        {
+          "id"      : "2",
+          "path"    : "testimonials/t_david",
+          "name"    : "David",
+          "age"     : "63",
+          "op"      : "Total Ankle Replacement",
+          "quote"   : "“Three months on from surgery, I would recommend surgery for anyone with end-stage osteo-arthritis. The improvement in my own quality of life has been immeasurable.”",
+          "video"   : "service_foot_ankle_testimonial_2"
+        },
+        {
+          "id"      : "3",
+          "path"    : "testimonials/t_marie",
+          "name"    : "Marie",
+          "age"     : "69",
+          "op"      : "Ankle Fusion",
+          "quote"   : "“I am looking forward to starting my life again and being able to wear a pair of very nice shoes and a dress instead of a cast boot and leggings.”",
+          "video"   : "service_foot_ankle_testimonial_3"
+        },
+        {
+          "id"      : "3",
+          "path"    : "testimonials/t_peter",
+          "name"    : "Peter",
+          "age"     : "69",
+          "op"      : "Total Ankle Replacement",
+          "quote"   : "“Since the operation I have landscaped the garden completely, relaid the pavings and walls. I’ve even taken up playing golf.”",
+          "video"   : "service_foot_ankle_testimonial_4"
+        }
+
+      ]
+    },
+    {
+      "id"  : "5",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 17:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "supportline"   : "020 8909 5305",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/foot-ankle-lower-limb",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

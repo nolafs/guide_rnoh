@@ -1,0 +1,158 @@
+{
+  "baseurl" : "/assets/images/project/services/rheumatology/",
+  "route"   : "rheumatology",
+  "feature" :
+  {
+    "title": "Rheumatology",
+    "type": "Specialist Service",
+    "body" : "The Stanmore Rheumatology unit comprises of a unique mix of skills and specialities that includes a bespoke inpatient service for complex regional pain syndrome and hyper mobility, the only one in the UK. Our Sport and Exercise Medicine service includes the only NHS clinic dedicated to dance medicine, specialist study and treatment of rare conditions as well as metabolic bone diseases and genetic/paediatric conditions.",
+    "image": "rheumatology",
+    "seq"  : "service_rheumatology_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Complex Rheumatology / Pain",
+          "body": "The complex regional pain syndrome service offers outpatient appointments as well as an inpatient rehabilitation programme (The aim of rehabilitation programmes is to improve your physical abilities and independence in day to day living)."
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "title": "General Rheumatology",
+          "class": "icon-button",
+          "body": "This includes inflammatory & degenerative arthritis, connective tissue disease, soft tissue rheumatism and back pain. "
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Sports & Exercise Medicine",
+          "class": "icon-button",
+          "body": "Sports injuries often occur as a result of errors in training and activity and can often be prevented by understanding how the body responds to exercise. Most injuries can be treated by applying relative rest, physical therapy and the principles of rehabilitation. Occasionally orthoses, medication and injections are required."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Joint Hyper mobility Service",
+          "class": "icon-button",
+          "body": "This service offers outpatient service and an inpatient rehabilitation programme (The aim of rehabilitation programmes is to improve your physical abilities and independence in day to day living)."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "body" : "We run a multidisciplinary team including orthopaedic surgeons, clinical nurse specialists, physiotherapists, occupational therapists and psychologists.",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Dr Helen Cohen",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-helen-cohen",
+          "position": "Consultant Rheumatologist",
+          "image"   : "helen_cohen",
+          "email"   : "jan.watling@rnoh.nhs.uk",
+          "specialties"    : "Rheumatology, Hyper mobility, Complex Regional Pain Syndrome & General Pain"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Dr Gayatri Mittal",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-gayatri-mittal",
+          "position": "Consultant Rheumatologist",
+          "image"   : "staff_default",
+          "email"   : "laura.park@rnoh.nhs.uk",
+          "specialties"    : "Rheumatology, Hyper mobility & Spondylitis"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Dr Roger Wolman",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-roger-wolman",
+          "position": "Consultant Rheumatologist",
+          "image"   : "staff_default",
+          "email"   : "rwolman@rnoh.nhs.uk",
+          "specialties"    : "Rheumatology, Hyper mobility, Sports & Dance Medicine"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Christina Peters",
+          "image"   : "staff_default",
+          "position": "Clinical Nurse Specialist"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Tara Khan",
+          "image"   : "staff_default",
+          "position": "Physicians Associate"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mirjana Dojcinovska",
+          "image"   : "staff_default",
+          "position": "Associate Specialist"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Jan Watling",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Laura Park",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        }
+      ]
+    },
+
+    {
+      "id"  : "3",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 17:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "supportline"   : "020 8909 5461",
+            "secretarialteam"   : "020 8909 5894",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/rheumatology",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        },
+        {
+          "name": "Bolsover Street",
+          "location" : [51.5230035,-0.142951],
+          "info": {
+            "times"   : "Monday - Friday <br> 07:45 - 20:00",
+            "address" : "Royal National Orthopaedic Hospital<br>45-51 Bolsover Street<br>Fitzrovia<br>London<br>W1W 5AQ",
+            "supportline"   : "020 8909 5461",
+            "secretarialteam"   : "020 8909 5894",
+            "web"     : "https://www.rnoh.nhs.uk/clinical-services/rheumatology",
+            "transport":{
+              "trans"   : "",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/bolsover-street-london-w1/bolsover-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

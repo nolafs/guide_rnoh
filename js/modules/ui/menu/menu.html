@@ -1,0 +1,35 @@
+<div class="menu-bar" ng-show="show">
+    <div role="button" aria-label="Toggle Navigation" ng-click="menuToggle()" ng-class="scrolled ? 'expanded' : 'collapsed'" class="btToggle lines-button x">
+        <span class="lines"></span>
+    </div>
+        <div class="menu-holder" ng-class="scrolled ? 'collapsed' : 'expanded'">
+            <ul  class="menu" ng-transclude>
+            </ul>
+            <div class="menu-social-holder">
+              <a href="#"
+                 socialshare
+                 socialshare-provider="facebook"
+                 socialshare-text="RNOH Patient Guide"
+                 socialshare-url="">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="#"
+                 socialshare
+                 socialshare-provider="twitter"
+                 socialshare-text="RNOH Patient Guide"
+                 socialshare-url="">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="https://www.youtube.com/user/RNOHnhs" target="_blank">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+              <a href="#"
+                 socialshare
+                 socialshare-provider="linkedin"
+                 socialshare-text="RNOH Patient Guide"
+                 socialshare-url="">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </div>
+        </div>
+</div>

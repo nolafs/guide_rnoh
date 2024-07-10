@@ -1,0 +1,126 @@
+{
+  "feature" :
+  {
+    "title": "Inpatient",
+    "body" : "Being an inpatient means, you will be admitted to hospital for your treatment. Your stay could be for a few hours or longer depending on your condition.",
+    "image": "Inpatients"
+  },
+  "content" : [
+    {
+      "id":1,
+      "hash": "admission",
+      "title": "Admission",
+      "body" : "The day you are to be admitted as an inpatient you will go first to the admission lounge. Here you will be checked in by a nurse and told which ward you will be on and its location.",
+      "journey" : [
+        {
+          "id" : "1",
+          "icon" : "bf-journey-nilbymouth",
+          "header" : "Nil by Mouth",
+          "body" : "Prior to surgery please do not have any liquids or foods. This may even be 24 hours beforehand."
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-whattobring",
+          "header" : "What to bring",
+          "body" : "Please bring the following items with you: admissions letter, medication & tablets(1 month supply), toiletries & towels, dressing gown, change of clothes, pyjamas, slippers"
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-appointment",
+          "header" : "Your Appointment",
+          "body" : "When arriving on your admissions day please report to the reception desk. We will tell you about the ward and its location. You will be given a laser band for correct identification and ask to go to the consultant waiting area."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-advice",
+          "header" : "Admission",
+          "body" : "The consultant or member of the team will see you and answer any last minute questions you may have. You will also be seen by the anaesthetist. "
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-consent",
+          "header" : "Consent / Mark Up",
+          "body" : "We will take your consent and draw a mark on the part of the body which is being operated on."
+        },
+        {
+          "id" : "6",
+          "icon" : "bf-journey-ward",
+          "header" : "Ward",
+          "body" : "Upon arrival at the ward the nurse will check you in and provide you with a second laser band. We will take you to your allocated bed and ask you to change into a hospital gown, stockings & briefs. We will also check your wellbeing."
+        },
+        {
+          "id" : "7",
+          "icon" : "bf-journey-preparation",
+          "header" : "Medication",
+          "body" : "Please give your medication to the nurse on admission. A pharmacist will discuss your medication while you are in hospital so please take this opportunity to ask them any questions you have about your medication."
+        }
+      ],
+      "image": "Inpatients-admission",
+      "location" : [51.6316032,-0.3107297],
+      "info" : {
+        "location": "Stanmore",
+        "times"   : "Monday - Saturday <br> 07:00 - 15:00",
+        "address" : "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br>HA7 4LP",
+        "admissionslounge"   : "020 8909 5128",
+        "web"     : "https://www.rnoh.nhs.uk/patients-visitors/coming-rnoh-stanmore",
+        "transport":{
+          "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+          "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+          "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+        }
+      }
+    },
+    {
+      "id":1,
+      "hash": "discharge",
+      "title": "Discharge",
+      "body" : " You will be discharged when you are fit enough to leave the hospital. This will be decided by your consultant and his team.",
+      "journey" : [
+        {
+          "id" : "1",
+          "icon" : "bf-journey-results",
+          "header" : "Sign off",
+          "body" : "The medical team discharges you home if you can move about safely and independently."
+        },
+        {
+          "id" : "2",
+          "icon" : "bf-journey-consent",
+          "header" : "Discharge Letter",
+          "body" : "When you leave hospital you will be given a letter for your GP, providing information about your treatment and future care needs. Please give this letter to your GP as soon as possible. "
+        },
+        {
+          "id" : "3",
+          "icon" : "bf-journey-preparation",
+          "header" : "Medication",
+          "body" : "We will provide you with enough medication for the following 7 days as well as a letter to give to your GP including information about your medication."
+        },
+        {
+          "id" : "4",
+          "icon" : "bf-journey-transport",
+          "header" : "Transport",
+          "body" : "Please arrange for a relative or friend to collect you or let staff know if they need to make other transport arrangements for you."
+        },
+        {
+          "id" : "5",
+          "icon" : "bf-journey-safety",
+          "header" : "Checklist",
+          "body" : "Remember to do the following before you leave hospital: Provide a forwarding address for any post, collected your hospital discharge letter for your GP, have the medication you need, arrange a follow-up appointment if needed & check you have all your belongings."
+        }
+      ],
+      "image": "Inpatients-discharge",
+      "location" : [51.6316032,-0.3107297],
+      "info" : {
+        "location": "Stanmore",
+        "times"   : "Monday - Friday <br> 08:00 - 19:00",
+        "address" : "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br>HA7 4LP",
+        "phone"   : "020 8954 2300",
+        "web"     : "https://www.rnoh.nhs.uk",
+        "transport":{
+          "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+          "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+          "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+        }
+      }
+    }
+  ]
+}

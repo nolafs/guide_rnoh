@@ -1,0 +1,20 @@
+<div class="block-gettinghere">
+    <div class="wrap __full __center tab-nav" ng-if="contentData.length > 1">
+            <ul class="button-group even-2">
+                <li ng-repeat="item in contentData"><a class="button large bt-select-map id-{{ $index }}" ng-click="select($index)">Getting to {{ item.name }}</a></li>
+            </ul>
+        <div class="pointer"></div>
+    </div>
+
+    <div class="info-tab" ng-repeat="item in contentData" ng-if="contentData.length > 1">
+        <div class="info-holder id-{{ $index }}" ng-if="$index===selectedIndex">
+            <direction-map ng-if="item.location" location-Data="{{item.location}}" linkData="two" ></direction-map>
+            <block-info ng-if="item.info" content-data="{{ item.info }} "></block-info>
+        </div>
+    </div>
+
+    <div class="info" ng-if="contentData.length == 1">
+        <direction-map ng-if="contentData[0].location" location-Data="{{contentData[0].location}}" linkData="two" location-title="contentData[0].name"></direction-map>
+        <block-info ng-if="contentData[0].info" content-data="{{ contentData[0].info }} "></block-info>
+    </div>
+</div>

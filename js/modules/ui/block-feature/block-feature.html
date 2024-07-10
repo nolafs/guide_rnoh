@@ -1,0 +1,41 @@
+<div class="wrap __full __center __white-text parallax block-feature" spark-id="{{ parallaxData }}-feature-spark">
+  <div class="bg-holder pin-pin">
+    <div ng-show="show" class="bg" ng-if="hasImage()" ng-show="hasImage()" ng-class="preprocess()">
+
+    </div>
+
+  </div>
+    <div ng-if="!isMobile" class="section __vertical"
+         spark-scroll-animate="{
+            bottomBottom:{y:0,opacity:1},
+            bottomTop:{y:-200,opacity:1,ease:'easeOutQuad'}
+            }"  spark-scroll-bind-once
+            >
+        <div class="wrap">
+            <div class="row">
+                <div class="small-12 medium-10 medium-offset-1 intro" ng-show="show">
+                    <article>
+                        <h1 ng-bind="headerData"></h1>
+                        <p class="l" ng-bind="contentData"></p>
+                        <btnvideo ng-if="videoData" sub-data="{{subData}}" video-data="{{ videoData }}"></btnvideo>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-if="isMobile" class="section __vertical">
+        <div class="wrap">
+            <div class="row">
+                <div class="small-12 medium-10 medium-offset-1 intro" ng-show="show">
+                    <article>
+                        <h1 ng-bind="headerData"></h1>
+                        <p class="l" ng-bind="contentData"></p>
+                        <btnvideo ng-if="videoData" sub-data="{{subData}}" video-data="{{ videoData }}"></btnvideo>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-menu-holder" ng-show="show" ng-transclude ></div>
+    <indicator-scroll  active="scroll" ></indicator-scroll>
+</div>

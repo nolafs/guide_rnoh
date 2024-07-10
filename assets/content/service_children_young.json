@@ -1,0 +1,433 @@
+{
+  "baseurl" : "/assets/images/project/services/children_young/",
+  "route"   : "children_young",
+  "feature" :
+  {
+    "title": "Children & Young People",
+    "type": "Specialist Service",
+    "body" : "The Children and Young Person service at RNOH covers all aspects of paediatric orthopaedic surgical and medical care for patients aged 0-18 years. We have a dedicated paediatric and adolescent (children & young people) ward with a team made up of surgical specialists, paediatricians and a child and adolescent psychiatrist.",
+    "image": "child",
+    "seq"  : "service_children_young_intro"
+  },
+  "content" :
+  [
+    {
+      "id": "1",
+      "hash":"conditions",
+      "title": "Range of Services",
+      "body": "Conditions and treatments include surgery for a range of rare and common congenital and acquired orthopaedic abnormalities and treatment of metabolic bone disorders.",
+      "content": [
+        {
+          "id":"1",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Dislocation of the Hip",
+          "body": "In babies and children with developmental dislocation (dysplasia) of the hip, the hip joint has not formed normally. The ball is loose in the socket and may be easy to dislocate. Although dysplasia is most often present at birth, it may also develop in the first year of life."
+        },
+        {
+          "id":"2",
+          "icon": "",
+          "class": "icon-button",
+          "title": "Cerebral Palsy",
+          "body": "Cerebral palsy is caused by abnormal development or damage to the parts of the brain that control movement, balance, and posture. Most often the problems occur during pregnancy; however, they may also occur during childbirth, or shortly after birth."
+        },
+        {
+          "id":"3",
+          "icon": "",
+          "title": "Scoliosis",
+          "class": "icon-button",
+          "body": "Scoliosis is the abnormal twisting and curvature of the spine. It is usually first noticed by a change in appearance of the back.Typical signs include: a visibly curved spine, a difference in leg lengths or one shoulder being higher than the other."
+        },
+        {
+          "id":"4",
+          "icon": "",
+          "title": "Limb Lengthening ",
+          "class": "icon-button",
+          "body": "Leg lengthening is a process that takes advantage of bone’s ability to heal itself by generating more bone. An operation is carried out during which the child’s leg is broken, and then, while supported by a frame or a fixator, the leg is stretched. Extra bone is formed in the gap between the broken ends of the bone growing stronger over time to support the child’s weight fully."
+        },
+        {
+          "id":"5",
+          "icon": "",
+          "title": "Club Foot Deformity",
+          "class": "icon-button",
+          "body": "Club foot is a deformity of the foot and ankle that babies can be born with. The position and function of the foot can be greatly improved, if treated early. The foot of a baby with club foot points down and inwards, with the soles of the feet facing backwards."
+        },
+        {
+          "id":"6",
+          "icon": "",
+          "title": "Osteosarcoma",
+          "class": "icon-button",
+          "body": "Osteosarcoma is the second most frequent primary cancer of bone and accounts for over 10% of all solid cancers in adolescents age 15-19. RNOH is the principal referral point for the London Sarcoma Service."
+        },
+        {
+          "id":"7",
+          "icon": "",
+          "title": "Medical Bone diseases",
+          "class": "icon-button",
+          "body": "Many abnormalities of bone metabolism first become apparent in childhood such as osteogenesis imperfecta, vitamin D problems and rickets. Treatments include drug interventions, intensive courses of physiotherapy, occupational therapy and psychological counselling to help deal with chronic pain and immobility."
+        },
+        {
+          "id":"8",
+          "icon": "",
+          "title": "Spinal Cord Injury",
+          "class": "icon-button",
+          "body": "We have an acclaimed adult spinal cord injury unit that helps adult patients recover and live with their injuries and disability and now treat adolescents as well."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "hash":"team",
+      "title" : "The Team",
+      "consultant": [
+        {
+          "id"      : "1",
+          "name"    : "Dr Zilla Huma",
+          "position": "Paediatric Consultant",
+          "image"   : "zilla_huma",
+          "email"   : "Carole.coward@rnoh.nhs.uk",
+          "specialties"    : "Paediatric Medicine"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Miss Deborah Eastwood",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/miss-deborah-eastwood",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "deborah_eastwood",
+          "email"   : "Recina.Dhillon@rnoh.nhs.uk",
+          "specialties"    : "Paediatrics"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mr Aresh Hashemi-Nejad",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-aresh-hashemi-nejad",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "aresh_hashemi_nejad",
+          "email"   : "Nejad.Secretary@rnoh.nhs.uk",
+          "specialties"    : "Sarcoma, Hip & Knee Replacement, Rehabilitation & Cartilage Transplantation"
+        },
+        {
+          "id"      : "4",
+          "name"    : "Mr Peter Calder",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-peter-r-calder",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "limbreconstruction@rnoh.nhs.uk",
+          "specialties"    : "Paediatrics & Limb Reconstruction"
+        },
+        {
+          "id"      : "5",
+          "name"    : "Miss Sally Tennant",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/miss-sally-tennant",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "Gloria.richter@rnoh.nhs.uk",
+          "specialties"    : "Paediatric Medicine & Paediatrics"
+        },
+        {
+          "id"      : "6",
+          "name"    : "Mr Tahir Khan",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/mr-tahir-khan",
+          "position": "Consultant Orthopaedic Surgeon",
+          "image"   : "staff_default",
+          "email"   : "Jacqueline.Flavell@rnoh.nhs.uk",
+          "specialties"    : "Paediatric Medicine"
+        },
+        {
+          "id"      : "7",
+          "name"    : "Dr Caroline Oren",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-caroline-oren",
+          "position": "Paediatric Consultant",
+          "image"   : "staff_default",
+          "email"   : "Siobhan.christian@rnoh.nhs.uk",
+          "specialties"    : "Paediatric Medicine"
+        },
+        {
+          "id"      : "8",
+          "name"    : "Dr Benjamin Jacobs",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-benjamin-jacobs",
+          "position": "Consultant Paediatrician",
+          "image"   : "benjamin_jacobs",
+          "email"   : "BJ@NHS.net",
+          "specialties"    : "Paediatric Consultant"
+        },
+        {
+          "id"      : "9",
+          "name"    : "Dr Wolfgang Muller",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-wolfgang-muller",
+          "position": "Paediatric Consultant",
+          "image"   : "staff_default",
+          "email"   : "Siobhan.christian@rnoh.nhs.uk",
+          "specialties"    : "Paediatric Medicine"
+        },
+        {
+          "id"      : "10",
+          "name"    : "Dr Caroline McKenna",
+          "link"    : "https://www.rnoh.nhs.uk/health-professionals/consultants/dr-caroline-mckenna",
+          "position": "Paediatric Consultant",
+          "image"   : "staff_default",
+          "email"   : "Siobhan.christian@rnoh.nhs.uk",
+          "specialties"    : "Paediatric Medicine"
+        },
+        {
+          "id"      : "11",
+          "name"    : "Prof Zulf Mughal",
+          "link"    : "",
+          "position": "Consultant in Paediatric",
+          "image"   : "zulf_mughal",
+          "email"   : "Siobhan.christian@rnoh.nhs.uk",
+          "specialties"    : "Bone Disorder"
+        }
+      ],
+      "staff" : [
+        {
+          "id"      : "1",
+          "name"    : "Abigail Amuah",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "2",
+          "name"    : "Regina Dhillon",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Mary Reid",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Siobhan Christian",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        },
+        {
+          "id"      : "3",
+          "name"    : "Jackie Flavell",
+          "image"   : "staff_default",
+          "position": "Medical Secretary"
+        }
+      ]
+    },
+    {
+      "id"  : "3",
+      "hash" : "pathway",
+      "title" : "Your Journey",
+      "body"  : "Your patient pathway starts with a referral by your local GP or District General Hospital and  continues until your treatment is completed.",
+      "image" : "service_journey",
+      "pathway" : [
+        {
+          "hash" : "admission",
+          "title": "Admission",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-nilbymouth",
+              "header": "Nil by Mouth",
+              "body": "You will receive a letter informing you of your admission date and time as well as guidance on eating and drinking before you come to the hospital for your operation."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-whattobring",
+              "header": "What to bring",
+              "body": "Please bring the following items with you: Medication & tablets, toiletries & towels, dressing gown, change of clothes, pyjamas, slippers, leisure wear, tablet devices and headphone. "
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-appointment",
+              "header": "Date of Admission",
+              "body": "Please go straight to Coxen Adolescent unit unless you have been advised otherwise."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-checkin",
+              "header": "Check in Ward",
+              "body": "Please hand in your medication to the nurse. We will be tell you when when you will need to change into a hospital gown, stockings & pants. The nurse will also check your general well being (blood pressure, heart rate, etc)."
+            }
+          ]
+        },
+        {
+          "hash" : "stay",
+          "title": "During your stay",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-consent",
+              "header": "Consent",
+              "body": "Members of the medical team will visit you on the ward confirming your surgery and complete a consent form. They may draw a mark on the area of your body which is being operated on and answer any last minute questions you may have. If you are under 16 years of age a parent/carer with parent responsibility must accompany you and sign the consent form."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-meeting",
+              "header": "Parental Responsibility",
+              "body": "Parental responsibility means the legal rights, duties, powers, responsibilities and authority a parent has for a child and the child’s property. A person who has parental responsibility for a child has the right to make decisions about their care and upbringing. Important decisions in a child’s life must be agreed with anyone else who has parental responsibility.."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-instructions",
+              "header": "For example:",
+              "body": "All birth mothers, Fathers married to the mother at the time the child was born, Fathers who are not married to the mother, but are registered on the child’s birth certificate, the registration or re-registration must have taken place after December 2003, Civil partners and partners of mothers registered as the child’s legal parent on the birth certificate."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-injection",
+              "header": "Anaesthetics",
+              "body": "You will be visited before your operation by an anaesthetist. This is the person who looks after you whilst you are asleep having your surgery. They will explain and talk to you about the anaesthetics you will have administered and how your pain if you have any will be controlled after your surgery."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-consultation",
+              "header": "Paediatricians",
+              "body": "Every day during your stay you will be visited by a group of doctors called Paediatricians. A paediatrician is a term that describes a doctor who deals with the growth, development and the health of children, from birth to adolescence. In other words, it is a doctor who specialises in children’s illnesses. They will ensure you remain fit and well during your hospital stay."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-theatre",
+              "header": "Theatre",
+              "body": "The nurse and porter will take you to the theatre where you will meet the anaesthetist who will guide you off to sleep. One parent/carer may accompany you to the theatre department should you wish them too."
+            },
+            {
+              "id": "7",
+              "icon": "bf-journey-surgery",
+              "header": "Surgery",
+              "body": "You then have your surgery."
+            },
+            {
+              "id": "8",
+              "icon": "bf-journey-recovery",
+              "header": "Recovery",
+              "body": "When you wake up the first person you see is the recovery nurse who is there to make sure you are okay and in no pain. They will then ring the ward and ask them to send one parent over to stay with you until you are awake enough to return to the ward. Following some surgeries you may go to the children’s high dependency unit overnight for monitoring, the anaesthetist will discuss this with you before your surgery."
+            },
+            {
+              "id": "9",
+              "icon": "bf-journey-education",
+              "header": "Play team/School",
+              "body": "During your stay on the ward you will be asked if you would like to join in with activities run by the play team. They will be age appropriate and they will ask you what sort of things you may like to do. The unit has TV’s, DVD’s and games consoles. There is a school within the unit. If you are staying for more than 3 nights you will be visited by a teacher and required to undertake school work should you feel well enough. You may bring in school work with you and they will assist you with this."
+            },
+            {
+              "id": "10",
+              "icon": "bf-journey-safety",
+              "header": "Safety",
+              "body": "We will closely monitor your well being at regular intervals and you may also be given a button to press which will deliver pain relief, only you can press this. You will have a nurse allocated to look after you every day and every night. When the nurse isn’t with you they will ensure you have a call bell to hand so you can ring for them should you need to."
+            },
+            {
+              "id": "11",
+              "icon": "bf-journey-ward",
+              "header": "Ward",
+              "body": "A member of the medical team will come and see you after surgery to explain what took place."
+            },
+            {
+              "id": "12",
+              "icon": "bf-journey-physiotherapy",
+              "header": "Physiotherapist",
+              "body": "A physiotherapist will come and see you to get you up and out of bed. This is important to minimise post-operative complications and speed up your recovery."
+            },
+            {
+              "id": "13",
+              "icon": "bf-journey-medication",
+              "header": "Medication",
+              "body": "You will be given suitable pain relief to help with early mobilisation. Please take all medicines given to you as some will be to assist you with your bowel movement and prevent constipation."
+            },
+            {
+              "id": "14",
+              "icon": "bf-journey-support",
+              "header": "Occupational Therapist",
+              "body": "The occupational therapist will explain the precautions after your surgery. They will go through the sorts of activities you should avoid for a specific amount of time and will advise you with regards to managing daily actives and returning to school."
+            },
+            {
+              "id": "15",
+              "icon": "bf-journey-plastercast",
+              "header": "Brace",
+              "body": "Depending on the surgery you have and your Consultant you may have to wear a brace for 3 to 6 month. This is to support your bones whilst they recover and become strong following your surgery. This will be made and provided to you by our orthotics department. We will show you and your parent/carer how to put it on and off before discharge home."
+            }
+          ]
+        },
+        {
+          "hash" : "discharge",
+          "title": "Discharge",
+          "content": [
+            {
+              "id": "1",
+              "icon": "bf-journey-advice",
+              "header": "Advice",
+              "body": "When at home, please ensure that you change your position regular throughout your day whilst increasing the time you are sitting and walking."
+            },
+            {
+              "id": "2",
+              "icon": "bf-journey-appointment",
+              "header": "Appointment",
+              "body": "This will be discussed with you prior to your discharge, the appointment date will be depend on the type of surgery you have had. You will see the consultant or a member of their team to assess your progress."
+            },
+            {
+              "id": "3",
+              "icon": "bf-journey-duration",
+              "header": "Stockings",
+              "body": "If you have been wearing anti-embolism stockings in hospital you will be required to wear them for 6 weeks after your operation to reduce the threat of blood clots forming in your legs whilst less active than normal."
+            },
+            {
+              "id": "4",
+              "icon": "bf-journey-checkup",
+              "header": "Check up",
+              "body": "10-14 days after your operation please visit your GP practice nurse to have your wound checked and your clips or sutures removed. A nurse will advise you on this prior to your discharge."
+            },
+            {
+              "id": "5",
+              "icon": "bf-journey-xray",
+              "header": "X Ray",
+              "body": "We may send you for an X Ray prior to your outpatient appointment so please make sure to arrive 15 minutes before your appointment. Certain restrictions may be lifted at this point in time."
+            },
+            {
+              "id": "6",
+              "icon": "bf-journey-conclusion",
+              "header": "Conclusion",
+              "body": "Once your treatment has been deemed successful you will be discharged back to your GP."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id"  : "4",
+      "hash" : "testimonials",
+      "title" : "Testimonials",
+      "content" : [
+        {
+          "id"      : "1",
+          "path"    : "testimonials/t_santi",
+          "name"    : "Santi",
+          "age"     : "16",
+          "op"      : "Spinal Injury",
+          "quote"   : "“After my injury, the care I received at RNOH was excellent. The rehabilitation and therapy has really helped me.”"
+        }
+      ]
+    },
+    {
+      "id"  : "5",
+      "hash" : "gettinghere",
+      "title" : "Getting Here",
+
+      "gettinghere": [
+        {
+          "name": "Stanmore",
+          "location": [51.6316032,-0.3107297],
+          "info": {
+            "times": "Monday - Friday <br> 08:00 - 19:00",
+            "address": "<h4>Royal National Orthopaedic Hospital</h4>Brockley Hill<br>Stanmore<br>Middlesex<br> HA7 4LP",
+            "phone"   : "+44 20 8954 2300",
+            "appointment"   : "+44 20 8909 5516",
+            "web"     : "https://www.rnoh.nhs.uk",
+            "transport":{
+              "trans"   : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "public"  : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-public-transport",
+              "car"     : "https://www.rnoh.nhs.uk/home/find-us/stanmore-middlesex/stanmore-car"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}
